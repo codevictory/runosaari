@@ -4,25 +4,26 @@ import styles from '../../styles/Header.module.scss';
 
 export const Header = () => {
   return (
-    <header>
-      <nav className={styles.mainNavBar}>
-        <Link href='/'>Etusivu</Link>
-        <Link href='/program'>Ohjelma</Link>
-        <Link href='/performers'>Esiintyjät</Link>
-        <Link href='/info'>Info</Link>
-        <Link href='/safety'>Turvallisuus</Link>
-        <Link href='/archive'>Arkisto</Link>
-      </nav>
-      <h1 className={styles.mobileMainTitle}>
-        <Link href='/'>Runosaari 2022</Link>
-      </h1>
-      <nav className={styles.mobileMainNavBar} id='nav-bar'>
-        <Link href='/#logo-start'>Etusivu</Link>
-        <Link href='/program#program-start'>Ohjelma</Link>
-        <Link href='/performers#performers-start'>Esiintyjät</Link>
-        <Link href='/info#contact-start'>Info</Link>
-        <Link href='/safety#safety-start'>Turvallisuus</Link>
-        <Link href='/archive#archive-start'>Arkisto</Link>
+    <header className={styles.header}>
+      <nav className={styles.navBar}>
+        <Link href='/'>
+          <a className={styles.navBarLink}>Etusivu</a>
+        </Link>
+        <Link href='/program'>
+          <a className={styles.navBarLink}>Ohjelma</a>
+        </Link>
+        <Link href='/performers'>
+          <a className={styles.navBarLink}>Esiintyjät</a>
+        </Link>
+        <Link href='/info'>
+          <a className={styles.navBarLink}>Info</a>
+        </Link>
+        <Link href='/safety'>
+          <a className={styles.navBarLink}>Turvallisuus</a>
+        </Link>
+        <Link href='/archive'>
+          <a className={styles.navBarLink}>Arkisto</a>
+        </Link>
       </nav>
     </header>
   );

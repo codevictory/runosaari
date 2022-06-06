@@ -1,61 +1,25 @@
-section.logo {
-  width: 80%;
-  max-width: 1000px;
-  background-color: #d5caf2;
-  border-radius: 3px 3px 0px 0px;
-  padding-top: 3px;
-
-  img {
-    width: 100%;
-  }
-
-  #logo-credits {
-    font-size: 90%;
-    display: flex;
-    justify-content: right;
-    background-color: #d5caf2;
-    max-width: 990px;
-    padding-right: 10px;
-  }
-}
-
-section.text {
+.logoContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logo {
   width: 80%;
   max-width: 1000px;
-  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #d5caf2);
-  text-align: center;
-
-  p {
-    padding: 0px 20px;
-    max-width: 56%;
-  }
-
-  @media screen and (max-width: 600px) {
-    p {
-      max-width: 90% !important;
-    }
-  }
+  border-radius: 3px 3px 0px 0px;
+  padding-top: 3px;
 }
 
-@media screen and (max-width: 600px) {
-  section.text {
-    width: 90% !important;
-  }
+.logoImage {
+  width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  #main-title {
-    visibility: hidden;
-    height: 0px;
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .timeAndPlace {
-    font-size: 1.1rem;
-  }
+.logoCredits {
+  font-size: 90%;
+  display: flex;
+  justify-content: right;
+  max-width: 990px;
+  padding-right: 10px;
+  margin-top: -10px;
 }
