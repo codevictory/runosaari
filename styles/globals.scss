@@ -17,3 +17,18 @@ a {
   color: #8962ec;
   text-decoration: underline;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  max-width: 40%;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
