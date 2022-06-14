@@ -1,5 +1,5 @@
 html {
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 body {
@@ -24,7 +24,6 @@ main {
 }
 
 .page {
-  max-width: 40%;
   text-align: center;
   margin-bottom: 8rem;
 }

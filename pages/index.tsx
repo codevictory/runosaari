@@ -1,7 +1,21 @@
 import type { NextPage } from 'next';
+import Performers from './performers';
+import Program from './program';
+import Info from './info';
+import Archive from './archive';
+import Safety from './safety';
+import styles from '../styles/Index.module.scss';
 
 const Home: NextPage = () => {
-  return <div>asdsd</div>;
+  return (
+    <div className={styles.indexContainer}>
+      <Performers />
+      <Program />
+      <Info />
+      <Archive />
+      <Safety />
+    </div>
+  );
 };
 
 export default Home;
