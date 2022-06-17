@@ -1,8 +1,6 @@
 .performersContainer {
   display: flex;
   flex-direction: column;
-  width: 47rem;
-  max-width: 100%;
 }
 
 .performerCard {
@@ -33,13 +31,6 @@
   margin-right: 15rem;
   height: 100px;
   border-radius: 100%;
-}
-
-.performerButton {
-  height: 3rem;
-  width: 3rem;
-  background-color: transparent;
-  border: transparent;
 }
 
 .performerButton:hover {

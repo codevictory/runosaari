@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from '../styles/Performers.module.scss';
+import shared from '../styles/Shared.module.scss';
 import Performer from '../types/Performer';
 import performers2021 from '../data/performers/2021';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
@@ -21,7 +22,7 @@ const Performers = () => {
   };
 
   return (
-    <section className='page'>
+    <section className={shared.page}>
       <h1>Esiintyjät</h1>
 
       <div className={styles.performersContainer}>
@@ -39,7 +40,7 @@ const Performers = () => {
                 layout='fixed'
               />
               <h2>{p.name}</h2>
-              <button className={styles.performerButton}>
+              <button className={shared.openingChevron}>
                 {p.showDesc ? (
                   <BiChevronDown size='3rem' />
                 ) : (
@@ -47,7 +48,7 @@ const Performers = () => {
                 )}
               </button>
             </div>
-            {p.showDesc ? (
+            {p.showDesc && (
               <>
                 {p.paragraphs.map((parag) => (
                   <p className={styles.performerDescription}>
@@ -55,8 +56,6 @@ const Performers = () => {
                   </p>
                 ))}
               </>
-            ) : (
-              <></>
             )}
           </div>
         ))}
