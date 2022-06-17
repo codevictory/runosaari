@@ -5,6 +5,13 @@
   border: transparent;
 }
 
+.openingChevron:hover {
+  svg {
+    color: rgb(117, 117, 117);
+    transition: color 0.3s;
+  }
+}
+
 .page {
   text-align: center;
   margin-bottom: 8rem;

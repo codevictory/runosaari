@@ -46,15 +46,13 @@ const Program = () => {
         </div>
         {dayToggles.wed && (
           <>
-            <p className={styles.programParag}>
+            <p>
               18-20 Olen polkuni päässä -illassa Ella Pyhältö lausuu
               rakastettuja runoja Irja ja Veikko Aro-Heinilän kotipihalla
               (sateella sisällä).
             </p>
-            <p className={styles.programParag}>Sydämellisesti tervetuloa!</p>
-            <p className={styles.programParag}>
-              Paikka: Huhtakarintie 24, Livonsaari
-            </p>
+            <p>Sydämellisesti tervetuloa!</p>
+            <p>Paikka: Huhtakarintie 24, Livonsaari</p>
           </>
         )}
         <hr />
@@ -75,7 +73,7 @@ const Program = () => {
         </div>
         {dayToggles.thu && (
           <>
-            <p className={styles.programParag}>
+            <p>
               14-16 Ainot ja Lauri esittävät Lähellä-nimisen poikkitaiteellisen
               kokoonpanon, joka on saanut kolmannen kiinnityksen
               kiertopalkintoon Willi Kansa -katselmuksessa marraskuussa 2021
@@ -83,11 +81,11 @@ const Program = () => {
               kuullaan Irja Aro-Heinilän ja Arto Juurakon tekstejä Ainojen ja
               Laurin esittäminä.
             </p>
-            <p className={styles.programParag}>
+            <p>
               17-19 Runollinen, musiikillinen ja merellinen matinea Cafe
               Laiturissa. Esiintymässä mm. Anja Erämaja.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Paikka: Huhtakarintie 24, Livonsaari sekä Cafe Laituri,
               Voiponlahdentie 37, Palva
             </p>
@@ -111,34 +109,32 @@ const Program = () => {
         </div>
         {dayToggles.fri && (
           <>
-            <p className={styles.programParag}>
+            <p>
               11-14 Monologityöpaja, vetäjä teatteritaiteen maisteri Kati Urho.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Ympäristöjargonia luovasti -työpaja, vetäjä journalisti ja
               viestintäkonsultti Laura Rantanen.
             </p>
-            <p className={styles.programParag}>
+            <p>
               14-20 Runoutta, musiikkia ja poikkitaiteellisia yllätyksiä
               puutarhalavalla tai myrskyn sattuessa Seurantalon salissa.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Esiintymässä mm. Kari Aronpuro, Sanna Karlström, Katariina
               Vuorinen, Aki Salmela, Heidi Iivari ja Laura Laakso.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Musiikillisesta puolesta vastaa saksofonisti Mikko Innanen sekä
               Äyräs-kokoonpano: Olga Välimaa (laulu), Kauko Röyhkä (laulu,
               kitara, basso), Ilkka Turta (kitara), Kimmo Laine (basso,
               koskettimet), Roberto Lanz (rummut).
             </p>
-            <p className={styles.programParag}>
+            <p>
               Tapahtuman ajan Sinervon talolla pitää majaa kiehtovien kirjojen
               tori.
             </p>
-            <p className={styles.programParag}>
-              Paikka: Sinervon talo, Sauniementie 5, Teersalo
-            </p>
+            <p>Paikka: Sinervon talo, Sauniementie 5, Teersalo</p>
           </>
         )}
         <hr />
@@ -159,21 +155,21 @@ const Program = () => {
         </div>
         {dayToggles.sat && (
           <>
-            <p className={styles.programParag}>
+            <p>
               13-17 Runollinen iltapäivä. Romanttinen Velkuanmaa kutsuu mystisen
               äärelle.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Saaristohotelli Vaihelan terassilla runoilijat vievät kuulijat
               luomiinsa maailmoihin yhdessä muusikoiden kanssa. Samalla ehtii
               myös nauttimaan lounasta, juttelemaan muiden festarikävijöiden
               kanssa ja ihailemaan ympäröivää luontoa.
             </p>
-            <p className={styles.programParag}>
+            <p>
               Juha Kulmala ja Diodi-yhtye, Saila Susiluoto ja Markku Pääskynen
               (luuttu).
             </p>
-            <p className={styles.programParag}>
+            <p>
               Paikka: Vaihelan saaristohotelli, Velkuanmaantie 168, Velkuanmaa
             </p>
           </>
