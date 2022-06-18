@@ -1,14 +1,26 @@
-.performersContainer {
+.performerContainer {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+
+  p {
+    padding-left: 1rem;
+  }
+
+  hr {
+    border: 0.2rem solid #d5caf29d;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
 }
 
-.performerCard {
-  display: flex;
-  flex-direction: column;
-  background-color: #d5caf29d;
-  margin: 2rem;
-  padding: 2rem;
+.performerTextContainer {
+  width: 80%;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .performerTitle {
@@ -16,6 +28,7 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  width: 100%;
 
   h2 {
     margin-left: 1rem;
@@ -28,9 +41,9 @@
 }
 
 .performerImage {
-  margin-right: 15rem;
   height: 100px;
   border-radius: 100%;
+  margin-bottom: 2rem;
 }
 
 .performerButton:hover {
