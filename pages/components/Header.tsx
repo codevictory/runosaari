@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 import styles from '../../styles/Header.module.scss';
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
       <header className={styles.header}>
@@ -31,7 +32,7 @@ export const Header = () => {
         <div className={styles.logo} id='logo-start'>
           <img
             className={styles.logoImage}
-            src='runosaari-logo.jpg'
+            src='/runosaari-logo.jpg'
             alt='Runosaari logo'
           />
           <div className={styles.logoCredits}>
@@ -42,3 +43,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;

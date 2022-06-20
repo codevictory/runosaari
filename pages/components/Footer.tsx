@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 import styles from '../../styles/Footer.module.scss';
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -16,7 +17,7 @@ export const Footer = () => {
           <Link href='/#nav-bar'>
             <img
               className={styles.logo}
-              src='small-logo.png'
+              src='/small-logo.png'
               alt='small logo'
             />
           </Link>
@@ -38,3 +39,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

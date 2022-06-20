@@ -1,9 +1,9 @@
 import '../styles/globals.scss';
 import type { AppProps } from 'next/app';
-import { Footer } from './layout/Footer';
-import { Header } from './layout/Header';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function Runosaari({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
@@ -15,4 +15,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;
+export default Runosaari;
