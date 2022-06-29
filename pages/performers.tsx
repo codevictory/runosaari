@@ -5,6 +5,7 @@ import shared from '../styles/Shared.module.scss';
 import Performer from '../types/Performer';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
 import PerformersData from '../data/performers/2022';
+import { CSSTransition } from 'react-transition-group';
 
 interface PerformerCard extends Performer {
   id: number;
@@ -65,15 +66,21 @@ const Performers = () => {
                 )}
               </button>
             </div>
-            {p.showDesc && (
-              <>
-                {p.paragraphs.map((parag, index) => (
-                  <p className={styles.performerDescription} key={index}>
-                    {parag.toString()}
-                  </p>
-                ))}
-              </>
-            )}
+            <CSSTransition
+              in={p.showDesc}
+              timeout={1000}
+              classNames='fadeTransition'
+            >
+              {p.showDesc ? (
+                <div>
+                  {p.paragraphs.map((parag, index) => (
+                    <p key={index}>{parag.toString()}</p>
+                  ))}
+                </div>
+              ) : (
+                <span></span>
+              )}
+            </CSSTransition>
             <hr />
           </div>
         </div>

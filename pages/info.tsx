@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import shared from '../styles/Shared.module.scss';
 import styles from '../styles/Info.module.scss';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
+import { CSSTransition } from 'react-transition-group';
 
 interface InfoToggles {
   shop: boolean;
@@ -42,19 +43,27 @@ const Info = () => {
             )}
           </button>
         </div>
-        {infoToggles.shop && (
-          <>
-            <p>
-              Livonsaaren osuuskauppa palvelee klo 9-19 joka päivä. Keittiö ja
-              baari 12-19 to-pe. Ostosten yhteydessä mahdollista nostaa
-              käteistä, mutta suosittelemme tuomaan käteistä rahaa kaupungista
-              esim. mahdollisia kirjaostoksia varten.
-            </p>
-            <a href='https://https//livonsaarenosuuskauppa.fi/'>
-              Kaupan kotisivut
-            </a>
-          </>
-        )}
+        <CSSTransition
+          in={infoToggles.shop}
+          timeout={1000}
+          classNames='fadeTransition'
+        >
+          {infoToggles.shop ? (
+            <div>
+              <p>
+                Livonsaaren osuuskauppa palvelee klo 9-19 joka päivä. Keittiö ja
+                baari 12-19 to-pe. Ostosten yhteydessä mahdollista nostaa
+                käteistä, mutta suosittelemme tuomaan käteistä rahaa kaupungista
+                esim. mahdollisia kirjaostoksia varten.
+              </p>
+              <a href='https://https//livonsaarenosuuskauppa.fi/'>
+                Kaupan kotisivut
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
+        </CSSTransition>
         <hr />
       </div>
       <div className={styles.infoContainer}>
@@ -68,18 +77,26 @@ const Info = () => {
             )}
           </button>
         </div>
-        {infoToggles.bus && (
-          <>
-            <p>
-              Bussi 403 lähteen Turusta ma-pe 16:30 ja saapuu Livonsaarelle
-              17:37 ja Velkualle 17:48. Tämä on ainoa suorayhteys festivaali
-              alueelle.
-            </p>
-            <a href='https://https//www.foli.fi/fi'>
-              Paikallisliikenteen bussiaikataulut
-            </a>
-          </>
-        )}
+        <CSSTransition
+          in={infoToggles.bus}
+          timeout={1000}
+          classNames='fadeTransition'
+        >
+          {infoToggles.bus ? (
+            <div>
+              <p>
+                Bussi 403 lähteen Turusta ma-pe 16:30 ja saapuu Livonsaarelle
+                17:37 ja Velkualle 17:48. Tämä on ainoa suorayhteys festivaali
+                alueelle.
+              </p>
+              <a href='https://https//www.foli.fi/fi'>
+                Paikallisliikenteen bussiaikataulut
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
+        </CSSTransition>
         <hr />
       </div>
       <div className={styles.infoContainer}>
@@ -93,17 +110,27 @@ const Info = () => {
             )}
           </button>
         </div>
-        {infoToggles.accom && (
-          <>
-            <p>
-              Majoituspalveluita Livonsaari-Velkua: Wanha Salakuljettaja
-              (Teersalo), Livonsaari Caravan, Saaristohotelli Vaihela.
-            </p>
-            <a href='https://oldsmuggler.fi/'>Vanha Salakuljettaja</a>
-            <a href='https://www.livonsaarencaravan.fi/'>Livonsaari Caravan</a>
-            <a href='https://vaihela.fi/'>Saaristohotelli Vaihela</a>
-          </>
-        )}
+        <CSSTransition
+          in={infoToggles.accom}
+          timeout={1000}
+          classNames='fadeTransition'
+        >
+          {infoToggles.accom ? (
+            <div>
+              <p>
+                Majoituspalveluita Livonsaari-Velkua: Wanha Salakuljettaja
+                (Teersalo), Livonsaari Caravan, Saaristohotelli Vaihela.
+              </p>
+              <a href='https://oldsmuggler.fi/'>Vanha Salakuljettaja</a>
+              <a href='https://www.livonsaarencaravan.fi/'>
+                Livonsaari Caravan
+              </a>
+              <a href='https://vaihela.fi/'>Saaristohotelli Vaihela</a>
+            </div>
+          ) : (
+            <></>
+          )}
+        </CSSTransition>
         <hr />
       </div>
       <div className={styles.infoContainer}>
@@ -117,18 +144,26 @@ const Info = () => {
             )}
           </button>
         </div>
-        {infoToggles.ferry && (
-          <>
-            <p>
-              Lossiyhteydet Palvaan ja Velkuanmaahan Finferries-sivustolla
-              (huom. yövuoro edellyttää tilauksen etukäteen. Lossi on osa
-              julkista tieverkostoa eli maksuton.)
-            </p>
-            <a href='https://www.finferries.fi/lauttaliikenne/lauttapaikat-ja-aikataulut/velkuanmaa.html'>
-              Aikataulut Palvaan ja Velkuanmaahan
-            </a>
-          </>
-        )}
+        <CSSTransition
+          in={infoToggles.ferry}
+          timeout={1000}
+          classNames='fadeTransition'
+        >
+          {infoToggles.ferry ? (
+            <div>
+              <p>
+                Lossiyhteydet Palvaan ja Velkuanmaahan Finferries-sivustolla
+                (huom. yövuoro edellyttää tilauksen etukäteen. Lossi on osa
+                julkista tieverkostoa eli maksuton.)
+              </p>
+              <a href='https://www.finferries.fi/lauttaliikenne/lauttapaikat-ja-aikataulut/velkuanmaa.html'>
+                Aikataulut Palvaan ja Velkuanmaahan
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
+        </CSSTransition>
         <hr />
       </div>
       <div className={styles.infoContainer}>
@@ -142,13 +177,21 @@ const Info = () => {
             )}
           </button>
         </div>
-        {infoToggles.fb && (
-          <>
-            <a href='https://https//www.facebook.com/Runosaari-festivaali-110533364561933'>
-              Tapahtuman facebook-sivut
-            </a>
-          </>
-        )}
+        <CSSTransition
+          in={infoToggles.fb}
+          timeout={1000}
+          classNames='fadeTransition'
+        >
+          {infoToggles.fb ? (
+            <div>
+              <a href='https://https//www.facebook.com/Runosaari-festivaali-110533364561933'>
+                Tapahtuman facebook-sivut
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
+        </CSSTransition>
         <hr />
       </div>
     </section>
