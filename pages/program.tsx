@@ -30,7 +30,7 @@ const Program = () => {
   return (
     <section className={shared.page}>
       <h1 id='program-start'>Ohjelma</h1>
-      <i>OHJELMA PÄIVITTYY KEVÄÄN MITTAAN, PYSYKÄÄ KUULOLLA!</i>
+      <i className={shared.followNote}>Lisätietoja tulossa myöhemmin!</i>
       <div className={styles.dayContainer}>
         <div
           className={styles.programTitle}

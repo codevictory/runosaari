@@ -3,6 +3,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 90%;
+  cursor: pointer;
 
   p {
     padding-left: 1rem;
@@ -50,5 +51,12 @@
   svg {
     color: rgb(117, 117, 117);
     transition: color 0.3s;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .performerContainer {
+    flex-direction: column;
+    align-items: center;
   }
 }
