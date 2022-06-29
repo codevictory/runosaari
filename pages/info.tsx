@@ -116,16 +116,18 @@ const Info = () => {
           classNames='fadeTransition'
         >
           {infoToggles.accom ? (
-            <div>
+            <div className={styles.infoContent}>
               <p>
                 Majoituspalveluita Livonsaari-Velkua: Wanha Salakuljettaja
                 (Teersalo), Livonsaari Caravan, Saaristohotelli Vaihela.
               </p>
-              <a href='https://oldsmuggler.fi/'>Vanha Salakuljettaja</a>
-              <a href='https://www.livonsaarencaravan.fi/'>
-                Livonsaari Caravan
-              </a>
-              <a href='https://vaihela.fi/'>Saaristohotelli Vaihela</a>
+              <div className={styles.linkList}>
+                <a href='https://oldsmuggler.fi/'>Vanha Salakuljettaja</a>
+                <a href='https://www.livonsaarencaravan.fi/'>
+                  Livonsaari Caravan
+                </a>
+                <a href='https://vaihela.fi/'>Saaristohotelli Vaihela</a>
+              </div>
             </div>
           ) : (
             <></>

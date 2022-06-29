@@ -32,3 +32,19 @@
     transition: color 0.3s;
   }
 }
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    margin-bottom: 1rem;
+  }
+}
