@@ -11,19 +11,18 @@ const Logo = () => {
   return (
     <section className={styles.logoContainer}>
       <div className={styles.logo} id='logo-start'>
-        {isDesktop ? (
+        <picture>
+          <source
+            srcSet='/runosaari-logo_small.jpg'
+            media='(max-width: 600px)'
+          />
+          <source srcSet='/runosaari-logo.jpg' />
           <img
-            className={styles.logoImage}
             src='/runosaari-logo.jpg'
             alt='Runosaari logo'
-          />
-        ) : (
-          <img
             className={styles.logoImage}
-            src='/runosaari-logo_small.jpg'
-            alt='Runosaari logo'
           />
-        )}
+        </picture>
         <div className={styles.logoCredits}>
           <div>@Sanna Hukkanen</div>
         </div>
