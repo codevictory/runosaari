@@ -3,7 +3,7 @@ import '../styles/transitions.scss';
 import type { AppProps } from 'next/app';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import { Logo } from './components/Logo';
+import Logo from './components/Logo';
 
 function Runosaari({ Component, pageProps }: AppProps) {
   return (

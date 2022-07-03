@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/Logo.module.scss';
 
-export const Logo = () => {
+const Logo = () => {
   const [isDesktop, setIsDesktop] = useState(true);
 
   useEffect(() => {
@@ -31,3 +31,5 @@ export const Logo = () => {
     </section>
   );
 };
+
+export default Logo;
