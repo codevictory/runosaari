@@ -5,7 +5,7 @@ const Lead = () => {
   return (
     <div className={styles.leadContainer}>
       <h2 className={styles.leadTitle}>
-        <span>~ 20.-23.7. Livonsaari & Velkuanmaa ~</span>
+        <span>~ 20.-23.7. Naantalin Saaristo ~</span>
         <br />
         Eksymisretki omaan luontoosi, metsänpeiton suojaan!
       </h2>
