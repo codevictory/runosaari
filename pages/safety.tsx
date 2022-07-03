@@ -16,20 +16,20 @@ const Safety = () => {
 
       <ul className={styles.safetyList}>
         <li>
-          <b>Kunnioitus.</b>Jokaisella ihmisellä on oikeus tulla kunnioitetuksi
+          <b>Kunnioitus. </b>Jokaisella ihmisellä on oikeus tulla kunnioitetuksi
           omana itsenään. Kunnioitathan muiden ihmisten fyysistä ja psyykkistä
           koskemattomuutta, mielipiteitä sekä ihmisarvoa. Jokaisella on oikeus
           poistua epämukavaksi kokemastaan tilanteesta tai keskustelusta. Ethän
           myöskään ota ihmisistä kuvia kysymättä ensin.{' '}
         </li>
         <li>
-          <b>Olettaminen.</b>Ethän oleta kenenkään sukupuolta, kansallisuutta,
+          <b>Olettaminen. </b>Ethän oleta kenenkään sukupuolta, kansallisuutta,
           seksuaalista suuntautumista, kulttuuria, kieltä, uskontoa, arvoja,
           terveydentilaa tai toimintakykyä. Ethän tee johtopäätelmiä kenenkään
           ulkonäön, käytöksen tai oletetun sosioekonomisen aseman perusteella.
         </li>
         <li>
-          <b>Kommunikointi.</b>
+          <b>Kommunikointi. </b>
           Pyrithän luomaan ympärillesi ystävällistä ja turvallista ilmapiiriä.
           Ole avoin muita ihmisiä kohtaan, kuuntele ja käytä kunnioittavaa
           kieltä. Ethän oleta puheessasi kenenkään sukupuolta tai muita
@@ -38,12 +38,12 @@ const Safety = () => {
           jotakuta, pyydäthän anteeksi.
         </li>
         <li>
-          <b>Toimiminen.</b>
+          <b>Toimiminen. </b>
           Mikäli havaitset epäasiallista käytöstä tai koet olosi uhatuksi, älä
           epäröi pyytää apua Runosaaren ja tapahtumapaikkojen työntekijöiltä.
           Jos koet, että olet kohdannut häirintää tapahtumissamme ja siihen ei
           ole onnistuttu puuttumaan, ole yhteydessä Runosaari-työryhmään
-          sähköpostilla{' '}
+          sähköpostilla
           <a href='mailto:runosaari@gmail.com'>runosaari@gmail.com</a> .
         </li>
       </ul>

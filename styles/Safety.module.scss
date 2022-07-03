@@ -1,7 +1,14 @@
 .safetyPage {
   margin-bottom: 4rem;
+  max-width: 80%;
 }
 
 .safetyList {
   text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .safetyPage {
+    max-width: 35rem;
+  }
 }

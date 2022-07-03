@@ -25,4 +25,11 @@ main {
 
 h1 {
   font-size: 5rem;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
