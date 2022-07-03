@@ -58,5 +58,9 @@
   .performerContainer {
     flex-direction: column;
     align-items: center;
+
+    hr {
+      margin-top: 0;
+    }
   }
 }

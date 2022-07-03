@@ -28,10 +28,15 @@
     text-decoration: underline;
     font-size: 1.5rem;
     margin-bottom: 4px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
   }
 
   .navBar {
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
 
@@ -58,5 +63,5 @@
   justify-content: right;
   max-width: 990px;
   padding-right: 10px;
-  margin-top: -10px;
+  margin-top: -5px;
 }

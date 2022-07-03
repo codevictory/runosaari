@@ -1,9 +1,14 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../../styles/Header.module.scss';
 
 const Header = () => {
+  const [isDesktop, setIsDesktop] = useState(true);
+
+  useEffect(() => {
+    setIsDesktop(window.innerWidth > 768);
+  }, []);
+
   return (
     <>
       <header className={styles.header}>
@@ -30,11 +35,19 @@ const Header = () => {
       </header>
       <section className={styles.logoContainer}>
         <div className={styles.logo} id='logo-start'>
-          <img
-            className={styles.logoImage}
-            src='/runosaari-logo.jpg'
-            alt='Runosaari logo'
-          />
+          {isDesktop ? (
+            <img
+              className={styles.logoImage}
+              src='/runosaari-logo.jpg'
+              alt='Runosaari logo'
+            />
+          ) : (
+            <img
+              className={styles.logoImage}
+              src='/runosaari-logo_small.jpg'
+              alt='Runosaari logo'
+            />
+          )}
           <div className={styles.logoCredits}>
             <div>@Sanna Hukkanen</div>
           </div>
