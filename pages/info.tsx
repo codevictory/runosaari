@@ -31,7 +31,6 @@ const Info = () => {
     <section className={shared.page}>
       <h1>Info</h1>
 
-      <i className={shared.followNote}>Lisätietoja tulossa myöhemmin!</i>
       <div className={styles.infoContainer}>
         <div className={styles.infoTitle} onClick={() => toggleInfo('shop')}>
           <h2>Livonsaaren Osuuskauppa</h2>
