@@ -1,12 +1,15 @@
-.header {
+.navBarContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .navBar {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .navBarLink {
@@ -14,10 +17,7 @@
   padding-right: 15px;
   color: #2f273e;
   text-decoration: none;
-}
-
-.navBarLink:hover {
-  color: #69568b;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -31,11 +31,5 @@
     margin-left: 1rem;
     margin-right: 1rem;
     width: auto;
-  }
-
-  .navBar {
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
   }
 }

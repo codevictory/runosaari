@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import styles from '../../styles/Header.module.scss';
+import styles from '../../styles/NavBar.module.scss';
 
-const Header = () => {
+const NavBar = () => {
   return (
     <>
-      <header className={styles.header}>
+      <div className={styles.navBarContainer}>
         <nav className={styles.navBar}>
           <Link href='/'>
             <a className={styles.navBarLink}>Etusivu</a>
@@ -25,9 +25,9 @@ const Header = () => {
             <a className={styles.navBarLink}>Arkisto</a>
           </Link>
         </nav>
-      </header>
+      </div>
     </>
   );
 };
 
-export default Header;
+export default NavBar;

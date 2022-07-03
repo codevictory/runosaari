@@ -2,8 +2,6 @@ import type { NextPage } from 'next';
 import Performers from './performers';
 import Program from './program';
 import Info from './info';
-import Archive from './archive';
-import Safety from './safety';
 import styles from '../styles/Index.module.scss';
 import Lead from './components/Lead';
 
@@ -15,8 +13,6 @@ const Home: NextPage = () => {
       <Performers />
       <Program />
       <Info />
-      <Archive />
-      <Safety />
     </div>
   );
 };
