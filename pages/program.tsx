@@ -97,7 +97,8 @@ const Program = () => {
               </p>
               <p>
                 17-19 Runollinen, musiikillinen ja merellinen matinea Cafe
-                Laiturissa. Esiintymässä mm. Anja Erämaja.
+                Laiturissa. Esiintymässä runoilija Anja Erämaja ja lauluyhtye
+                Signe.
               </p>
               <p>
                 Paikka: Huhtakarintie 24, Livonsaari sekä Cafe Laituri,
@@ -131,27 +132,33 @@ const Program = () => {
         >
           {dayToggles.fri ? (
             <div>
+              <p>12:30-14 Kirjoittamisen työpajoja. </p>
               <p>
-                11-14 Monologityöpaja, vetäjä teatteritaiteen maisteri Kati
-                Urho.
+                Pyydämme ilmoittautumisia ennakkoon: runosaari@gmail.com. Jos
+                tilaa jää, mukaan voi tulla suoraan paikan päällä.
+              </p>
+              <p>
+                Monologityöpaja, vetäjä teatteritaiteen monitaituri Kati Urho.
               </p>
               <p>
                 Ympäristöjargonia luovasti -työpaja, vetäjä journalisti ja
                 viestintäkonsultti Laura Rantanen.
               </p>
               <p>
-                14-20 Runoutta, musiikkia ja poikkitaiteellisia yllätyksiä
-                puutarhalavalla tai myrskyn sattuessa Seurantalon salissa.
+                16-24 Runoutta, musiikkia ja poikkitaiteellisia yllätyksiä
+                merilavalla tai myrskyn sattuessa Sinervon salissa.
               </p>
               <p>
-                Esiintymässä mm. Kari Aronpuro, Sanna Karlström, Katariina
-                Vuorinen, Aki Salmela, Heidi Iivari ja Laura Laakso.
+                Esiintymässä mm. Kari Aronpuro, Sanna Karlström, Outi-Illuusia
+                Parviainen, Katariina Vuorinen, Aki Salmela, Susinukke Kosola,
+                Laura Laakso, Juha Kulmala, Heidi Iivari ja Karl Kruuse.
               </p>
               <p>
-                Musiikillisesta puolesta vastaa saksofonisti Mikko Innanen sekä
-                Äyräs-kokoonpano: Olga Välimaa (laulu), Kauko Röyhkä (laulu,
-                kitara, basso), Ilkka Turta (kitara), Kimmo Laine (basso,
-                koskettimet), Roberto Lanz (rummut).
+                Musiikillis-lyyrisestä puolesta vastaavat saksofonisti Mikko
+                Innanen, jouhikonsoittaja Tytti Metsä, Francis North and The
+                Ghosts On Tv sekä Äyräs-kokoonpano: Olga Välimaa (laulu), Kauko
+                Röyhkä (laulu, kitara, basso), Ilkka Turta (kitara), Kimmo Laine
+                (basso, koskettimet), Roberto Lanz (rummut).
               </p>
               <p>
                 Tapahtuman ajan Sinervon talolla pitää majaa kiehtovien kirjojen
@@ -198,7 +205,7 @@ const Program = () => {
               </p>
               <p>
                 Juha Kulmala ja Diodi-yhtye, Saila Susiluoto ja Markku Pääskynen
-                (luuttu).
+                (luuttu), Katariina Vuorinen ja Diodi.
               </p>
               <p>
                 Paikka: Vaihelan saaristohotelli, Velkuanmaantie 168, Velkuanmaa
