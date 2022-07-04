@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Runosaari</title>
           <link
             href='https://fonts.googleapis.com/css?family=Crimson+Text'
             rel='stylesheet'
