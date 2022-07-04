@@ -42,11 +42,7 @@ const Performers = () => {
     <section className={shared.page}>
       <h1>Esiintyjät</h1>
       {performers.map((p) => (
-        <div
-          className={styles.performerContainer}
-          onClick={() => togglePerformerDesc(p.id)}
-          key={p.id}
-        >
+        <div className={styles.performerContainer} key={p.id}>
           <Image
             className={styles.performerImage}
             src={p.imagePath}
@@ -56,7 +52,10 @@ const Performers = () => {
             alt={p.name + ' image'}
           />
           <div className={styles.performerTextContainer}>
-            <div className={styles.performerTitle}>
+            <div
+              className={styles.performerTitle}
+              onClick={() => togglePerformerDesc(p.id)}
+            >
               <h2>{p.name}</h2>
               <button className={shared.openingChevron}>
                 {p.showDesc ? (
