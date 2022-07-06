@@ -18,6 +18,7 @@ const Performers: Array<Performer> = [
     { name: 'Ella Pyhältö', paragraphs: ['Ella Pyhältö on näyttelijä, joka on saanut kuuluisuutta myös lausuntataiteilijana ja äänikirjojen kaunisäänisenä lukijana. Hän työskentelee tällä hetkellä Teatteri Avoimissa Ovissa Helsingissä. Hän on ollut Suomen Lausujain Liiton puheenjohtaja.'], imagePath: '/performers/2022/ella_pyhalto.jpg' },
     { name: 'Laura Rantanen', paragraphs: ['Journalisti, viestintäkonsultti ja saariston lapsi.'], imagePath: '/performers/2022/laura_rantanen.jpg' },
     { name: 'Kati Urho', paragraphs: ['Kati Urho on turkulainen teatterialan monitaituri, joka valmistui vuonna 2002 ammattinäyttelijäksi (FIA) Lontoossa (East 15 Acting School). Kati toimii tällä hetkellä freelancer näyttelijänä, käsikirjoittajana, laulajana, ohjaajana sekä tuottajana Turusta käsin. Vuonna 2022 Turun kaupunki myönsi Katille vuoden Aboa-apurahan.'], imagePath: '/performers/2022/kati_urho.jpg' },
+    { name: 'Outi-Illuusia Parviainen', paragraphs: ['Parviainen on runoilija sekä lavalla että sen ulkopuolella. Hänen taustansa on monitaiteinen ulottuen runoudesta esitystaiteeseen ja performanssiin, musiikkiin ja kuvataiteeseen.', 'Hän on toiminut lavarunouskollektiivi Helsinki Poetry Connectionin puheenjohtajana ja hänen runojaan on julkaistu sekä kokoelmina että antologioissa. Saaristo on käynyt hänelle rakkaaksi purjehduksen myötä.'], imagePath: '/performers/2022/outi_illuusia.jpg' },
 ];
 
 export default Performers;
