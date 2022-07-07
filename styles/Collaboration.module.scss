@@ -1,0 +1,12 @@
+.collabContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  span {
+    margin-right: 2em;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 2em;
+  }
+}

@@ -4,6 +4,7 @@ import Program from './program';
 import Info from './info';
 import styles from '../styles/Index.module.scss';
 import Lead from './components/Lead';
+import Collaboration from './components/Collaboration';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Performers />
       <Program />
       <Info />
+      <Collaboration />
     </div>
   );
 };
