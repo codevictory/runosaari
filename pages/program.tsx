@@ -139,10 +139,11 @@ const Program = () => {
               </p>
               <p>
                 Monologityöpaja, vetäjä teatteritaiteen monitaituri Kati Urho.
+                Osallistumismaksu 10€.
               </p>
               <p>
                 Ympäristöjargonia luovasti -työpaja, vetäjä journalisti ja
-                viestintäkonsultti Laura Rantanen.
+                viestintäkonsultti Laura Rantanen. Osallistumismaksu 10€.
               </p>
               <p>
                 16-24 Runoutta, musiikkia ja poikkitaiteellisia yllätyksiä
