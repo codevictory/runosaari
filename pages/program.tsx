@@ -132,7 +132,7 @@ const Program = () => {
         >
           {dayToggles.fri ? (
             <div>
-              <p>12:30-14 Kirjoittamisen työpajoja. </p>
+              <p>11-14.15 Kirjoittamisen työpajoja. </p>
               <p>
                 Pyydämme ilmoittautumisia ennakkoon: runosaari@gmail.com. Jos
                 tilaa jää, mukaan voi tulla suoraan paikan päällä.
