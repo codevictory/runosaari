@@ -10,3 +10,18 @@
     line-height: 2em;
   }
 }
+
+.collabLogo {
+  max-width: 108px;
+}
+
+.collabLogoRow {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .collabContainer span {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}

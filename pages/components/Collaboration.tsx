@@ -8,7 +8,13 @@ const Collaboration = () => {
       <div className={styles.collabContainer}>
         <span>Varsinais-Suomen rahasto</span>
         <span>Runoviikko ry</span>
-        <span>Kirjan talo – Bokens hus ry</span>
+        <div className={styles.collabLogoRow}>
+          <img
+            className={styles.collabLogo}
+            src='/collaborators/kirjan_talo.png'
+            alt='kirjan talo logo'
+          />
+        </div>
         <span>Pro Sinervo ry</span>
         <span>Velkuan saaristolaisyhdistys ry</span>
         <span>Aviador Kustannus</span>
