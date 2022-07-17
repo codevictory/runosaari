@@ -53,9 +53,15 @@ const Program = () => {
           {dayToggles.wed ? (
             <div>
               <p>
-                18-20 Olen polkuni päässä -illassa Ella Pyhältö lausuu
-                rakastettuja runoja Irja ja Veikko Aro-Heinilän kotipihalla
-                (sateella sisällä).
+                <b>18-20</b> <i>Olen polkuni päässä</i> -illassa näyttelijä Ella
+                Pyhältö Helsingistä lausuu rakastettuja runoja Irja ja Veikko
+                Aro-Heinilän pihassa ke 20.7.22 klo 18. (sateella sisällä)
+                Osoite Huhtakarintie 24, Livonsaari.
+              </p>
+              <p>
+                Iltaa jatketaan osallistujien lempirunojen parissa. Ota siis
+                runoja mukaan. Muun muassa Antti Kinnanen lausuu tätinsä
+                kirjoittaman pakolaisrunon.
               </p>
               <p>Sydämellisesti tervetuloa!</p>
               <p>Paikka: Huhtakarintie 24, Livonsaari</p>
@@ -88,17 +94,22 @@ const Program = () => {
           {dayToggles.thu ? (
             <div>
               <p>
-                14-16 Ainot ja Lauri esittävät Lähellä-nimisen
-                poikkitaiteellisen kokoonpanon, joka on saanut kolmannen
-                kiinnityksen kiertopalkintoon Willi Kansa -katselmuksessa
-                marraskuussa 2021 Irja ja Veikko Aro-Heinilän pihamaalla.
-                Toisessa osassa iltapäivää kuullaan Irja Aro-Heinilän ja Arto
-                Juurakon tekstejä Ainojen ja Laurin esittäminä.
+                <b>14-16</b> Ainot ja Lauri, ohj. Leena Koivula, tulevat
+                Karviasta ja esittävät poikkitaiteellisen runosarjan LÄHELLÄ
+                sekä Irja Aro-Heinilän ja Arto Juurakon tekstejä to 21.7.22 klo
+                14. Irja ja Veikko Aro-Heinilän pihassa (sateella sisällä)
+                Osoite Huhtakarintie 24, Livonsaari.
               </p>
               <p>
-                17-19 Runollinen, musiikillinen ja merellinen matinea Cafe
-                Laiturissa. Esiintymässä runoilija Anja Erämaja ja lauluyhtye
-                Signe.
+                Ainot ja Lauri -ryhmä on voittanut Willi Kansa -katselmuksessa
+                ensimmäisen sijan. Mukana on myös Tiina-Kaisa Aro-Heinilä, joka
+                laulaa lauluja syvistä vesistä, kasvusta ja menetyksestä sekä
+                soittaa herkkiä huilusävelmiä.
+              </p>
+              <p>
+                <b>17-19</b> Runollinen, musiikillinen ja merellinen matinea
+                Cafe Laiturissa. Esiintymässä runoilija Anja Erämaja ja
+                lauluyhtye Signe.
               </p>
               <p>
                 Paikka: Huhtakarintie 24, Livonsaari sekä Cafe Laituri,
@@ -132,7 +143,9 @@ const Program = () => {
         >
           {dayToggles.fri ? (
             <div>
-              <p>11-14.15 Kirjoittamisen työpajoja. </p>
+              <p>
+                <b>11-14:15</b> Kirjoittamisen työpajoja.
+              </p>
               <p>
                 Pyydämme ilmoittautumisia ennakkoon: runosaari@gmail.com. Jos
                 tilaa jää, mukaan voi tulla suoraan paikan päällä.
@@ -146,8 +159,8 @@ const Program = () => {
                 viestintäkonsultti Laura Rantanen. Osallistumismaksu 10€.
               </p>
               <p>
-                16-24 Runoutta, musiikkia ja poikkitaiteellisia yllätyksiä
-                merilavalla tai myrskyn sattuessa Sinervon salissa.
+                <b>16-24</b> Runoutta, musiikkia ja poikkitaiteellisia
+                yllätyksiä merilavalla tai myrskyn sattuessa Sinervon salissa.
               </p>
               <p>
                 Esiintymässä mm. Kari Aronpuro, Sanna Karlström, Outi-Illuusia
@@ -195,7 +208,7 @@ const Program = () => {
           {dayToggles.sat ? (
             <div>
               <p>
-                13-17 Runollinen iltapäivä. Romanttinen Velkuanmaa kutsuu
+                <b>13-17</b> Runollinen iltapäivä. Romanttinen Velkuanmaa kutsuu
                 mystisen äärelle.
               </p>
               <p>
