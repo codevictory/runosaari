@@ -43,7 +43,7 @@ const Safety = () => {
           epäröi pyytää apua Runosaaren ja tapahtumapaikkojen työntekijöiltä.
           Jos koet, että olet kohdannut häirintää tapahtumissamme ja siihen ei
           ole onnistuttu puuttumaan, ole yhteydessä Runosaari-työryhmään
-          sähköpostilla
+          sähköpostilla{' '}
           <a href='mailto:runosaari@gmail.com'>runosaari@gmail.com</a> .
         </li>
       </ul>
