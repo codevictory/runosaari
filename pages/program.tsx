@@ -144,19 +144,17 @@ const Program = () => {
           {dayToggles.fri ? (
             <div>
               <p>
-                <b>11-14:15</b> Kirjoittamisen työpajoja.
-              </p>
-              <p>
-                Pyydämme ilmoittautumisia ennakkoon: runosaari@gmail.com. Jos
-                tilaa jää, mukaan voi tulla suoraan paikan päällä.
+                <b>11:00-15:30</b> Kirjoittamisen työpajoja.
               </p>
               <p>
                 Monologityöpaja, vetäjä teatteritaiteen monitaituri Kati Urho.
-                Osallistumismaksu 10€.
               </p>
               <p>
                 Ympäristöjargonia luovasti -työpaja, vetäjä journalisti ja
-                viestintäkonsultti Laura Rantanen. Osallistumismaksu 10€.
+                viestintäkonsultti Laura Rantanen.
+              </p>
+              <p>
+                Lisätietoja <a href='/workshops'>Työpajat-osiosta</a>
               </p>
               <p>
                 <b>16-24</b> Runoutta, musiikkia ja poikkitaiteellisia
