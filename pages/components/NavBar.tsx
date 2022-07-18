@@ -15,6 +15,9 @@ const NavBar = () => {
           <Link href='/performers'>
             <a className={styles.navBarLink}>Esiintyjät</a>
           </Link>
+          <Link href='/workshops'>
+            <a className={styles.navBarLink}>Työpajat</a>
+          </Link>
           <Link href='/info'>
             <a className={styles.navBarLink}>Info</a>
           </Link>
