@@ -55,9 +55,7 @@ const Info = () => {
                 käteistä, mutta suosittelemme tuomaan käteistä rahaa kaupungista
                 esim. mahdollisia kirjaostoksia varten.
               </p>
-              <a href='https://https//livonsaarenosuuskauppa.fi/'>
-                Kaupan kotisivut
-              </a>
+              <a href='https://livonsaarenosuuskauppa.fi/'>Kaupan kotisivut</a>
             </div>
           ) : (
             <></>
@@ -88,7 +86,7 @@ const Info = () => {
                 17:37 ja Velkualle 17:48. Tämä on ainoa suorayhteys festivaali
                 alueelle.
               </p>
-              <a href='https://https//www.foli.fi/fi'>
+              <a href='https://www.foli.fi/fi'>
                 Paikallisliikenteen bussiaikataulut
               </a>
             </div>
@@ -185,7 +183,7 @@ const Info = () => {
         >
           {infoToggles.fb ? (
             <div>
-              <a href='https://https//www.facebook.com/Runosaari-festivaali-110533364561933'>
+              <a href='https://www.facebook.com/Runosaari-festivaali-110533364561933'>
                 Tapahtuman facebook-sivut
               </a>
             </div>
