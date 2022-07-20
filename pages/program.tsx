@@ -176,6 +176,7 @@ const Program = () => {
                 Tapahtuman ajan Sinervon talolla pitää majaa kiehtovien kirjojen
                 tori.
               </p>
+              <p>Saariston Savotan buffet 16:00 - 21:00</p>
               <p>Paikka: Sinervon talo, Sauniementie 5, Teersalo</p>
             </div>
           ) : (
