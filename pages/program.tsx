@@ -156,22 +156,66 @@ const Program = () => {
               <p>
                 Lisätietoja <a href='/workshops'>Työpajat-osiosta</a>
               </p>
+
+              <br />
+
               <p>
-                <b>16-24</b> Runoutta, musiikkia ja poikkitaiteellisia
-                yllätyksiä merilavalla tai myrskyn sattuessa Sinervon salissa.
+                <b>16:30</b> Runosaaren perjantain lavaohjelma alkaa!
               </p>
               <p>
-                Esiintymässä mm. Kari Aronpuro, Sanna Karlström, Outi-Illuusia
-                Parviainen, Katariina Vuorinen, Aki Salmela, Susinukke Kosola,
-                Laura Laakso, Juha Kulmala, Heidi Iivari ja Karl Kruuse.
+                <b>16:30</b> Alkusanat Katariina Vuorinen ja Kati Urho
               </p>
               <p>
-                Musiikillis-lyyrisestä puolesta vastaavat saksofonisti Mikko
-                Innanen, jouhikonsoittaja Tytti Metsä, Francis North and The
-                Ghosts On Tv sekä Äyräs-kokoonpano: Olga Välimaa (laulu), Kauko
-                Röyhkä (laulu, kitara, basso), Ilkka Turta (kitara), Kimmo Laine
-                (basso, koskettimet), Roberto Lanz (rummut).
+                <b>16:40</b> Heidi Iivari & Karl Kruuse
               </p>
+              <p>
+                <b>17:10</b> Aki Salmela
+              </p>
+              <p>
+                <b>17:30-18:10</b> Maakuntauudistus! Mikko Innanen, Laura
+                Laakso, Juha Kulmala, Outi-Illuusia Parviainen
+              </p>
+              <p>
+                <i>Tauko</i>
+              </p>
+              <p>
+                <b>18:30</b> Sanna Karlström
+              </p>
+              <p>
+                <b>18:50</b> Kari Aronpuro
+              </p>
+              <p>
+                <b>19:20</b> Katariina Vuorinen & Mikko Innanen{' '}
+              </p>
+              <p>
+                <b>19:40-20:30</b> Äyräs
+              </p>
+              <p>
+                <i>Tauko</i>
+              </p>
+              <p>
+                <b>20:50</b> Susinukke Kosola
+              </p>
+              <p>
+                <b>21:10</b> Laura Laakso
+              </p>
+              <p>
+                <b>21:30-22:00</b> Tytti Metsä
+              </p>
+              <p>
+                <i>Tauko</i>
+              </p>
+              <p>
+                <b>22:20-23:00</b> Francis North & Ghosts on TV
+              </p>
+              <p>
+                <b>23:10</b> Päätössanat
+              </p>
+              <p>Muutokset mahdollisia. Samoin yllätysohjelma. </p>
+              <p>Tapahtuma suljetaan viimeistään klo 24.</p>
+
+              <br />
+
               <p>
                 Tapahtuman ajan Sinervon talolla pitää majaa kiehtovien kirjojen
                 tori.
