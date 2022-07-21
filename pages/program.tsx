@@ -3,6 +3,7 @@ import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
 import styles from '../styles/Program.module.scss';
 import shared from '../styles/Shared.module.scss';
 import { CSSTransition } from 'react-transition-group';
+import Link from 'next/link';
 
 interface DayToggles {
   wed: boolean;
@@ -154,7 +155,7 @@ const Program = () => {
                 viestintäkonsultti Laura Rantanen.
               </p>
               <p>
-                Lisätietoja <a href='/workshops'>Työpajat-osiosta</a>
+                Lisätietoja <Link href='/workshops'>Työpajat-osiosta</Link>
               </p>
 
               <br />
