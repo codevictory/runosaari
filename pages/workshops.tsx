@@ -41,7 +41,9 @@ const Workshops = () => {
         Työpajamaksu 10 euroa. Ilmoittautumiset:{' '}
         <a href='mailto:runosaari@gmail.com'>runosaari@gmail.com</a>
       </p>
-      <h2>Ympäristöjargonia luovasti -työpaja, Laura Rantanen</h2>
+      <h2>
+        <b>PERUTTU</b> Ympäristöjargonia luovasti -työpaja, Laura Rantanen
+      </h2>
       <h3>
         Perjantai 22.7.
         <br />

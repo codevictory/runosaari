@@ -151,8 +151,8 @@ const Program = () => {
                 Monologityöpaja, vetäjä teatteritaiteen monitaituri Kati Urho.
               </p>
               <p>
-                Ympäristöjargonia luovasti -työpaja, vetäjä journalisti ja
-                viestintäkonsultti Laura Rantanen.
+                PERUTTU Ympäristöjargonia luovasti -työpaja, vetäjä journalisti
+                ja viestintäkonsultti Laura Rantanen.
               </p>
               <p>
                 Lisätietoja <Link href='/workshops'>Työpajat-osiosta</Link>
@@ -214,6 +214,20 @@ const Program = () => {
               </p>
               <p>Muutokset mahdollisia. Samoin yllätysohjelma. </p>
               <p>Tapahtuma suljetaan viimeistään klo 24.</p>
+
+              <br />
+
+              <p>
+                <b>Runoilijan vastaanotto</b>
+              </p>
+
+              <p>
+                Runoilijan vastaanotolla olet huomion keskipiste, ja sinusta
+                kirjoitetaan runo. Vastaanottoon kuuluu noin vartin mittainen
+                kahdenkeskinen haastattelu, jonka jälkeen kuulet
+                henkilökohtaisen runosi ja saat runon mukaasi. Kesto on noin 20
+                min.
+              </p>
 
               <br />
 
