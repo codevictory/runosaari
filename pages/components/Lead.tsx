@@ -4,6 +4,10 @@ import styles from '../../styles/Lead.module.scss';
 const Lead = () => {
   return (
     <div className={styles.leadContainer}>
+      <h2 className={styles.leadNextYear}>Runosaari kiittää!</h2>
+      <h2 className={styles.leadNextYear}>
+        Tervetuloa seuraavaan Runosaareen 19.-22.7.2023
+      </h2>
       <h2 className={styles.leadTitle}>
         <span className={styles.dateAndPlace}>
           20.-23.7. Naantalin Saaristo
