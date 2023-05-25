@@ -6,14 +6,14 @@ const Lead = () => {
     <div className={styles.leadContainer}>
       <h2 className={styles.leadTitle}>
         <span className={styles.dateAndPlace}>
-          19.-22.7. Naantalin Saaristo
+          20.-22.7. Naantalin Saaristo
         </span>
         Eksymisretki omaan luontoosi, metsänpeiton suojaan!
       </h2>
       <p className={styles.leadText}>
         Runosaari on poikkitaiteellinen runofestivaali Livonsaaren, Palvan ja
         Velkuanmaan saarissa. Festivaali järjestetään kolmatta kertaa
-        19.-22.7.2023.
+        20.-22.7.2023.
       </p>
       <p className={styles.leadText}>
         Tapahtuma kutsuu Naantalin saaristoon joukon valovoimaisia ja
