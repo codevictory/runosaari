@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FiExternalLink } from 'react-icons/fi';
 import shared from '../styles/Shared.module.scss';
+import program from '../styles/Program.module.scss';
 
 interface DayToggles {
   wed: boolean;
@@ -30,26 +31,28 @@ const Program = () => {
       <h1 id='program-start'>Ohjelma</h1>
 
       <h2>
-        20.7. Cafe Laituri{' '}
+        20.7. Laituri{' '}
         <a href='https://www.cafelaituri.fi'>
           <FiExternalLink fontSize={20} />
         </a>
       </h2>
-      <p>Voiponlahdentie 37, Palva</p>
+      <p>Café Laituri, Voiponlahdentie 37, Palva</p>
       <h2>
         21.7. Vaihela{' '}
         <a href='https://vaihela.fi/'>
           <FiExternalLink fontSize={20} />
         </a>
       </h2>
-      <p> Velkuanmaantie 168, Palva</p>
+      <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Palva</p>
       <h2>
-        22.7. Sinervon talo{' '}
+        22.7. Sinervo{' '}
         <a href='https://www.prosinervo.com/'>
           <FiExternalLink fontSize={20} />
         </a>
       </h2>
-      <p style={{ marginBottom: 50 }}>Sauniementie 5, Teersalo</p>
+      <p style={{ marginBottom: 50 }}>
+        Sinervon talo, Sauniementie 5, Teersalo
+      </p>
       <i className={shared.followNote}>Ohjelmaa päivitetään...</i>
     </section>
   );
