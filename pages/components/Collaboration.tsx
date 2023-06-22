@@ -6,8 +6,7 @@ const Collaboration = () => {
     <>
       <h1>Yhteistyössä</h1>
       <div className={styles.collabContainer}>
-        <span>Varsinais-Suomen rahasto</span>
-        <span>Runoviikko ry</span>
+        <span>Naantalin kaupunki</span>
         <div className={styles.collabLogoRow}>
           <img
             className={styles.collabLogo}
@@ -21,7 +20,6 @@ const Collaboration = () => {
         <span>Enostone Kustannus</span>
         <span>Cafe Laituri</span>
         <span>Saaristohotelli Vaihela</span>
-        <span>Artbox Irja</span>
       </div>
     </>
   );
