@@ -88,6 +88,8 @@ const Performers = () => {
       ) : (
         <i>Lisätietoja tulossa myöhemmin...</i>
       )}
+
+      <i style={{ marginTop: '3rem' }}>Esiintyjälistaa päivitetään...</i>
     </section>
   );
 };
