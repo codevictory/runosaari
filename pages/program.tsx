@@ -31,37 +31,34 @@ const Program = () => {
       <h1 id='program-start'>Ohjelma</h1>
 
       <h2 className={styles.programTitle}>
-        <div>20.7.</div>
-        <div>
+        <span>20.7.</span>
+        <a href='https://www.cafelaituri.fi'>
           <span className={styles.placeName}>Laituri</span>
-          <a href='https://www.cafelaituri.fi'>
-            <FiExternalLink fontSize={20} />
-          </a>
-        </div>
-        <div />
+          <FiExternalLink fontSize={20} />
+        </a>
+        <span>to</span>
       </h2>
+      <h3 className={styles.timeSpan}>17:00 - 19:00</h3>
       <p>Café Laituri, Voiponlahdentie 37, Palva</p>
       <h2 className={styles.programTitle}>
-        <div>21.7.</div>
-        <div>
+        <span>21.7.</span>
+        <a href='https://vaihela.fi/'>
           <span className={styles.placeName}>Vaihela</span>
-          <a href='https://vaihela.fi/'>
-            <FiExternalLink fontSize={20} />
-          </a>
-        </div>
-        <div />
+          <FiExternalLink fontSize={20} />
+        </a>
+        <span>pe</span>
       </h2>
+      <h3 className={styles.timeSpan}>18:00 - 21:00</h3>
       <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Palva</p>
       <h2 className={styles.programTitle}>
-        <div>22.7.</div>
-        <div>
+        <span>22.7.</span>
+        <a href='https://www.prosinervo.com/'>
           <span className={styles.placeName}>Sinervo</span>
-          <a href='https://www.prosinervo.com/'>
-            <FiExternalLink fontSize={20} />
-          </a>
-        </div>
-        <div />
+          <FiExternalLink fontSize={20} />
+        </a>
+        <span>la</span>
       </h2>
+      <h3 className={styles.timeSpan}>14:00 - 20:00</h3>
       <p style={{ marginBottom: 50 }}>
         Sinervon talo, Sauniementie 5, Teersalo
       </p>
