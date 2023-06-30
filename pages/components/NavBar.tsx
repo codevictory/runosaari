@@ -15,9 +15,10 @@ const NavBar = () => {
           <Link href='/performers'>
             <a className={styles.navBarLink}>Esiintyjät</a>
           </Link>
+          {/* // No workshops on 2023
           <Link href='/workshops'>
             <a className={styles.navBarLink}>Työpajat</a>
-          </Link>
+          </Link> */}
           <Link href='/info'>
             <a className={styles.navBarLink}>Info</a>
           </Link>
