@@ -39,6 +39,7 @@ const Program = () => {
         <span>to</span>
       </h2>
       <h3 className={styles.timeSpan}>17:00 - 19:00</h3>
+      <i>Esiintyjät julkistetaan myöhemmin...</i>
       <p>Café Laituri, Voiponlahdentie 37, Palva</p>
       <h2 className={styles.programTitle}>
         <span>21.7.</span>
@@ -49,6 +50,11 @@ const Program = () => {
         <span>pe</span>
       </h2>
       <h3 className={styles.timeSpan}>18:00 - 21:00</h3>
+      <ul className={styles.performerList}>
+        <li>Ilmi Lupiini</li>
+        <li>Kasper Salonen</li>
+        <li>Juha Kulmala + Positroninen runo-orkesteri</li>
+      </ul>
       <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Palva</p>
       <h2 className={styles.programTitle}>
         <span>22.7.</span>
@@ -59,6 +65,7 @@ const Program = () => {
         <span>la</span>
       </h2>
       <h3 className={styles.timeSpan}>14:00 - 20:00</h3>
+      <i>Esiintyjät julkistetaan myöhemmin...</i>
       <p style={{ marginBottom: 50 }}>
         Sinervon talo, Sauniementie 5, Teersalo
       </p>
