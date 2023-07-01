@@ -39,7 +39,12 @@ const Program = () => {
         <span>to</span>
       </h2>
       <h3 className={styles.timeSpan}>17:00 - 19:00</h3>
-      <i>Esiintyjät julkistetaan myöhemmin...</i>
+      <ul className={styles.performerList}>
+        <li>Rauhatäti</li>
+        <li>Otso Helasvuo</li>
+        <li>Katariina Vuorinen</li>
+        <li>Rosanna Fellman</li>
+      </ul>
       <p>Café Laituri, Voiponlahdentie 37, Palva</p>
       <h2 className={styles.programTitle}>
         <span>21.7.</span>
