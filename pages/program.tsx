@@ -83,7 +83,7 @@ const Program = () => {
         <li>Katariina Vuorinen</li>
         <li>Katja Meriluoto</li>
         <li>Masi Hukari</li>
-        <li>Sergio Sánchez</li>
+        <li>Sergio Augusto Sánchez</li>
         <li>Blues Ones</li>
       </ul>
       <p style={{ marginBottom: 50 }}>
