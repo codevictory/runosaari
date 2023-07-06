@@ -82,9 +82,10 @@ const Info = () => {
           {infoToggles.bus ? (
             <div>
               <p>
-                Bussi 403 lähteen Turusta ma-pe 16:30 ja saapuu Livonsaarelle
-                17:37 ja Velkualle 17:48. Tämä on ainoa suorayhteys festivaali
-                alueelle.
+                Bussi 203 lähtee Turusta (Kauppatori E2) ma-pe 16:30 ja saapuu
+                Velkualle 17:53. Tämä on ainoa suorayhteys festivaali alueelle.
+                Takaisin päin bussi menee 06:20 Teersalosta ja on 07:37 Turussa
+                (Kauppatori E2)
               </p>
               <a href='https://www.foli.fi/fi'>
                 Paikallisliikenteen bussiaikataulut
