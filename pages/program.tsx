@@ -89,7 +89,6 @@ const Program = () => {
       <p style={{ marginBottom: 50 }}>
         Sinervon talo, Sauniementie 5, Teersalo
       </p>
-      <i className={shared.followNote}>Ohjelmaa päivitetään...</i>
     </section>
   );
 };
