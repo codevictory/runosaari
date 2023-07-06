@@ -70,7 +70,22 @@ const Program = () => {
         <span>la</span>
       </h2>
       <h3 className={styles.timeSpan}>14:00 - 20:00</h3>
-      <i>Esiintyjät julkistetaan myöhemmin...</i>
+      <ul className={styles.performerList}>
+        <li>Sirpa Kyyrönen</li>
+        <li>Juhani Aaltonen</li>
+        <li>Tomi Kontio</li>
+        <li>Signe</li>
+        <li>Kinnunen&Kinnunen</li>
+        <li>Marianna Kurtto</li>
+        <li>Esa Hirvonen</li>
+        <li>Suvi Valli</li>
+        <li>Veera Sylvius</li>
+        <li>Katariina Vuorinen</li>
+        <li>Katja Meriluoto</li>
+        <li>Masi Hukari</li>
+        <li>Sergio Sánchez</li>
+        <li>Blues Ones</li>
+      </ul>
       <p style={{ marginBottom: 50 }}>
         Sinervon talo, Sauniementie 5, Teersalo
       </p>
