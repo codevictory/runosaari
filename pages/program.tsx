@@ -60,7 +60,7 @@ const Program = () => {
         <li>Kasper Salonen</li>
         <li>Juha Kulmala + Positroninen runo-orkesteri</li>
       </ul>
-      <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Palva</p>
+      <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa</p>
       <h2 className={styles.programTitle}>
         <span>22.7.</span>
         <a href='https://www.prosinervo.com/'>
