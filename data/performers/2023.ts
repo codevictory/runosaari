@@ -20,7 +20,8 @@ const Performers: Array<Performer> = [
     { name: 'Juhani Aaltonen', paragraphs: ['Juhani Aaltonen (s. 1935) on Suomen johtavia jazzmuusikoita. Hän aloitti uransa 1950-luvulla ja on siitä lähtien esiintynyt kotimaisten ja kansainvälisten huippumuusikoiden yhtyeissä. Hän on luonut myös merkittävän soolotuotannon. Viime kymmenen vuoden aikana hän on laajentanut ilmaisuaan esiintymällä suomalaisen runouden parhaiden edustajien kanssa runofestivaaleilla ja -klubeilla. '], imagePath: '/performers/2023/juhani_aaltonen.jpg' },
     { name: 'Marianna Kurtto', paragraphs: ['Marianna Kurtto (s. 1980) on runoilija, prosaisti ja kaunokirjallisuuden suomentaja. Esikoisteos Eksyneitten valtakunta (WSOY) ilmestyi vuonna 2006 ja viimeisin teos, syväjäädytyksestä heräävälle tiklille äänen antava runoelma Ellen valkeudessa (Otava) keväällä 2023. Kurtto on saanut runoteoksistaan Kalevi Jäntin palkinnon ja Tiiliskivi-palkinnon, ja romaani Tristania (WSOY, 2017) oli Pohjoismaiden neuvoston kirjallisuuspalkinnon ehdokkaana. Kurtto on kotoisin Helsingistä ja asuu tällä hetkellä Karkkilassa vanhassa seuratalossa, jossa kirjoittaminen lomittuu puutarhanhoitoon.'], imagePath: '/performers/2023/marianne_kurtto.jpg' },
     { name: 'Otso Helasvuo', paragraphs: ['Tälle esiintyjälle ei ole vielä selostetta...'], imagePath: '/performers/2023/default.jpg' },
-    { name: 'Masi Hukari', paragraphs: ['Tälle esiintyjälle ei ole vielä selostetta...'], imagePath: '/performers/2023/default.jpg' }
+    { name: 'Masi Hukari', paragraphs: ['Tälle esiintyjälle ei ole vielä selostetta...'], imagePath: '/performers/2023/default.jpg' },
+    { name: "Otso Helasvuo", paragraphs: ['Otso Helasvuo on helsinkiläinen muusikko ja kirjoittaja, joka on yhdistänyt runoilmaisua ääniin muun muassa Säkeet Orkesterissa, Diodissa, sooloartistina sekä säestäjänä.'], imagePath: '/performers/2023/otso_helasvuo.jpg' }
 ];
 
 export default Performers;
