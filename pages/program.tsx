@@ -30,6 +30,7 @@ const Program = () => {
     <section className={shared.page}>
       <h1 id='program-start'>Ohjelma</h1>
 
+      {/* Torstai */}
       <h2 className={styles.programTitle}>
         <span>20.7.</span>
         <a href='https://www.cafelaituri.fi'>
@@ -38,6 +39,9 @@ const Program = () => {
         </a>
         <span>to</span>
       </h2>
+      <span className={styles.locationAddress}>
+        Café Laituri, Voiponlahdentie 37, Palva
+      </span>
       <h3 className={styles.timeSpan}>17:00 - 19:00</h3>
       <ul className={styles.performerList}>
         <li>Rauhatäti</li>
@@ -45,7 +49,8 @@ const Program = () => {
         <li>Katariina Vuorinen</li>
         <li>Rosanna Fellman</li>
       </ul>
-      <p>Café Laituri, Voiponlahdentie 37, Palva</p>
+
+      {/* Perjantai */}
       <h2 className={styles.programTitle}>
         <span>21.7.</span>
         <a href='https://vaihela.fi/'>
@@ -54,13 +59,17 @@ const Program = () => {
         </a>
         <span>pe</span>
       </h2>
+      <span className={styles.locationAddress}>
+        Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa
+      </span>
       <h3 className={styles.timeSpan}>18:00 - 21:00</h3>
       <ul className={styles.performerList}>
         <li>Ilmi Lupiini</li>
         <li>Kasper Salonen</li>
         <li>Juha Kulmala + Positroninen runo-orkesteri</li>
       </ul>
-      <p>Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa</p>
+
+      {/* Lauantai */}
       <h2 className={styles.programTitle}>
         <span>22.7.</span>
         <a href='https://www.prosinervo.com/'>
@@ -69,26 +78,69 @@ const Program = () => {
         </a>
         <span>la</span>
       </h2>
+      <span className={styles.locationAddress} style={{ marginBottom: 50 }}>
+        Sinervon talo, Sauniementie 5, Teersalo
+      </span>
       <h3 className={styles.timeSpan}>14:00 - 20:00</h3>
       <ul className={styles.performerList}>
-        <li>Sirpa Kyyrönen</li>
-        <li>Juhani Aaltonen</li>
-        <li>Tomi Kontio</li>
-        <li>Signe</li>
-        <li>Kinnunen&Kinnunen</li>
-        <li>Marianna Kurtto</li>
-        <li>Esa Hirvonen</li>
-        <li>Suvi Valli</li>
-        <li>Veera Sylvius</li>
-        <li>Katariina Vuorinen</li>
-        <li>Katja Meriluoto</li>
-        <li>Masi Hukari</li>
-        <li>Sergio Augusto Sánchez</li>
-        <li>Blues Ones</li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>14:00</span>
+          <span className={styles.programPerformer}>Kinnunen&Kinnunen</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>14:30</span>
+          <span className={styles.programPerformer}>Katja Meriluoto</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>14:50</span>
+          <span className={styles.programPerformer}>Marianna Kurtto</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>15:10</span>
+          <span className={styles.programPerformer}>
+            Esa Hirvonen & Masi Hukari
+          </span>
+        </li>
+        <li className={styles.programBreak}>Tauko</li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>16:00</span>
+          <span className={styles.programPerformer}>Veera Sylvius</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>16:20</span>
+          <span className={styles.programPerformer}>Suvi Valli</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>16:40</span>
+          <span className={styles.programPerformer}>
+            Sergio Augusto Sánchez
+          </span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>17:00</span>
+          <span className={styles.programPerformer}>Blues Ones</span>
+        </li>
+        <li className={styles.programBreak}>Tauko</li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>18:00</span>
+          <span className={styles.programPerformer}>Sirpa Kyyrönen</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>18:20</span>
+          <span className={styles.programPerformer}>Tomi Kontio</span>
+        </li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>18:40</span>
+          <span className={styles.programPerformer}>
+            Katariina Vuorinen & Kaisa Mäensivu
+          </span>
+        </li>
+        <li className={styles.programBreak}>Tauko</li>
+        <li className={styles.performerWithTime}>
+          <span className={styles.programTime}>19:30</span>
+          <span className={styles.programPerformer}>Signe</span>
+        </li>
       </ul>
-      <p style={{ marginBottom: 50 }}>
-        Sinervon talo, Sauniementie 5, Teersalo
-      </p>
     </section>
   );
 };

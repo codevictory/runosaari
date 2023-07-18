@@ -63,3 +63,29 @@
     margin-top: 1em;
   }
 }
+
+.performerWithTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 2.5rem;
+}
+
+.programPerformer {
+  text-align: right;
+}
+
+.programBreak {
+  justify-content: center !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.programTime {
+  font-size: 1.7rem;
+}
+
+.locationAddress {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
