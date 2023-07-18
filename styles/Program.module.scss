@@ -58,6 +58,7 @@
   line-height: 1.5rem;
   max-width: 20rem;
   padding-left: 0;
+  margin-top: 0;
 
   li {
     margin-top: 1em;
@@ -79,6 +80,7 @@
   justify-content: center !important;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .programTime {
@@ -88,4 +90,34 @@
 .locationAddress {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.programPerformersTitleToggle {
+  display: flex;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: 'Crimson Text', sans-serif;
+  color: #2f273e;
+  font-weight: bold;
+}
+
+.programPerformersTitleToggle:hover {
+  svg {
+    color: rgb(117, 117, 117);
+    transition: color 0.3s;
+  }
+
+  color: rgb(117, 117, 117);
+  transition: color 0.3s;
+}
+
+.programPerformersTitle {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.programHr {
+  border: 0.1rem solid #d5caf29d;
+  width: 43%;
 }
