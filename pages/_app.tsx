@@ -12,12 +12,12 @@ function Runosaari({ Component, pageProps }: AppProps) {
       <Head>
         <title>Runosaari</title>
       </Head>
-      <NavBar />
+      {/* <NavBar /> */}
       <Logo />
       <main>
         <Component {...pageProps} />
       </main>
-      <NavBar />
+      {/* <NavBar /> */}
       <Footer />
     </>
   );

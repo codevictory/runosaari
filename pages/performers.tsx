@@ -4,7 +4,7 @@ import styles from '../styles/Performers.module.scss';
 import shared from '../styles/Shared.module.scss';
 import Performer from '../types/Performer';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
-import PerformersData from '../data/performers/2023';
+import PerformersData from '../data/performers/2024';
 import { CSSTransition } from 'react-transition-group';
 
 interface PerformerCard extends Performer {
@@ -88,8 +88,6 @@ const Performers = () => {
       ) : (
         <i>Lisätietoja tulossa myöhemmin...</i>
       )}
-
-      <i style={{ marginTop: '3rem' }}>Esiintyjälistaa päivitetään...</i>
     </section>
   );
 };
