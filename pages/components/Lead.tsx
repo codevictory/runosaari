@@ -6,14 +6,14 @@ const Lead = () => {
     <div className={styles.leadContainer}>
       <h2 className={styles.leadTitle}>
         <span className={styles.dateAndPlace}>
-          20.-22.7. Naantalin Saaristo
+          13.—15.6. Naantalin Saaristo
         </span>
-        Eksymisretki omaan luontoosi, metsänpeiton suojaan!
+        Vuonna 2024 saarifestivaali tuo runoutta ja musiikkia kahteen kesäkuun perjantaihin
       </h2>
-      <p className={styles.leadText}>
+      {/* <p className={styles.leadText}>
         Runosaari on poikkitaiteellinen runofestivaali Livonsaaren, Palvan ja
         Velkuanmaan saarissa. Festivaali järjestetään kolmatta kertaa
-        20.-22.7.2023.
+        13.—15.6.2024.
       </p>
       <p className={styles.leadText}>
         Tapahtuma kutsuu Naantalin saaristoon joukon valovoimaisia ja
@@ -25,7 +25,7 @@ const Lead = () => {
         meidänkin rantojamme. Peurojen kurittaman monimuotoisuuden keskelle
         nousee Runosaari ihmettelemään ihmisen ja muun luonnon olemista taiteen
         ja ilmaisun keinoin.
-      </p>
+      </p> */}
     </div>
   );
 };

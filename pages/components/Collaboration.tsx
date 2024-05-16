@@ -6,7 +6,7 @@ const Collaboration = () => {
     <>
       <h1>Yhteistyössä</h1>
       <div className={styles.collabContainer}>
-        <span>Naantalin kaupunki</span>
+        <span>Runoviikko Ry</span>
         <div className={styles.collabLogoRow}>
           <img
             className={styles.collabLogo}
@@ -14,12 +14,11 @@ const Collaboration = () => {
             alt='kirjan talo logo'
           />
         </div>
-        <span>Pro Sinervo ry</span>
         <span>Velkuan saaristolaisyhdistys ry</span>
-        <span>Aviador Kustannus</span>
-        <span>Enostone Kustannus</span>
         <span>Cafe Laituri</span>
         <span>Saaristohotelli Vaihela</span>
+        <span>Aviador Kustannus</span>
+        <span>Enostone Kustannus</span>
       </div>
     </>
   );

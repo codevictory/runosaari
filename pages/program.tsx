@@ -13,74 +13,14 @@ interface DayToggles {
 }
 
 const Program = () => {
-  const [dayToggles, setDayToggles] = useState<DayToggles>({
-    wed: false,
-    thu: false,
-    fri: false,
-    sat: false,
-  });
-
-  const toggleDayDesc = (day: keyof DayToggles) => {
-    let updated = { ...dayToggles };
-
-    updated[day] = !updated[day];
-
-    setDayToggles(updated);
-  };
-
   return (
     <section className={shared.page}>
       <h1 id='program-start'>Ohjelma</h1>
 
-      {/* Torstai */}
+      {/* Vaihela */}
       <h2 className={styles.programTitle}>
-        <span>20.7.</span>
+        <span>7.6.</span>
         <a href='https://www.cafelaituri.fi'>
-          <span className={styles.placeName}>Laituri</span>
-          <FiExternalLink fontSize={20} />
-        </a>
-        <span>to</span>
-      </h2>
-      <span className={styles.locationAddress}>
-        Café Laituri, Voiponlahdentie 37, Palva
-      </span>
-      <h3 className={styles.timeSpan}>17:00 - 19:00</h3>
-
-      <button
-        className={styles.programPerformersTitleToggle}
-        onClick={() => toggleDayDesc('thu')}
-      >
-        <span className={styles.programPerformersTitle}>Esiintyjät</span>
-        <span className={shared.openingChevron}>
-          {dayToggles.thu ? (
-            <BiChevronDown size='2.5rem' />
-          ) : (
-            <BiChevronLeft size='2.5rem' />
-          )}
-        </span>
-      </button>
-      <CSSTransition
-        in={dayToggles.thu}
-        timeout={1000}
-        classNames='fadeTransition'
-      >
-        {dayToggles.thu ? (
-          <ul className={styles.performerList}>
-            <li>Rauhatäti</li>
-            <li>Otso Helasvuo</li>
-            <li>Katariina Vuorinen</li>
-            <li>Rosanna Fellman</li>
-          </ul>
-        ) : (
-          <span />
-        )}
-      </CSSTransition>
-      <hr className={styles.programHr} />
-
-      {/* Perjantai */}
-      <h2 className={styles.programTitle}>
-        <span>21.7.</span>
-        <a href='https://vaihela.fi/'>
           <span className={styles.placeName}>Vaihela</span>
           <FiExternalLink fontSize={20} />
         </a>
@@ -89,136 +29,35 @@ const Program = () => {
       <span className={styles.locationAddress}>
         Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa
       </span>
-      <h3 className={styles.timeSpan}>18:00 - 21:00</h3>
+      <span className={styles.timeSpan}>18:00 - 21:00</span>
 
-      <button
-        className={styles.programPerformersTitleToggle}
-        onClick={() => toggleDayDesc('fri')}
-      >
-        <span className={styles.programPerformersTitle}>Esiintyjät</span>
-        <span className={shared.openingChevron}>
-          {dayToggles.fri ? (
-            <BiChevronDown size='2.5rem' />
-          ) : (
-            <BiChevronLeft size='2.5rem' />
-          )}
-        </span>
-      </button>
-
-      <CSSTransition
-        in={dayToggles.thu}
-        timeout={1000}
-        classNames='fadeTransition'
-      >
-        {dayToggles.fri ? (
-          <ul className={styles.performerList}>
-            <li>Ilmi Lupiini</li>
-            <li>Kasper Salonen</li>
-            <li>Juha Kulmala + Positroninen runo-orkesteri</li>
-          </ul>
-        ) : (
-          <span />
-        )}
-      </CSSTransition>
+      <ul className={styles.performerList}>
+        <li>Äyräs</li>
+        <li>Hanna Storm</li>
+        <li>Juha Rautio</li>
+        <li>Katariina Vuorinen<br />& Ilkka Turta</li>
+      </ul>
       <hr className={styles.programHr} />
 
-      {/* Lauantai */}
+      {/* Laituri */}
       <h2 className={styles.programTitle}>
-        <span>22.7.</span>
-        <a href='https://www.prosinervo.com/'>
-          <span className={styles.placeName}>Sinervo</span>
+        <span>17.6.</span>
+        <a href='https://www.cafelaituri.fi'>
+          <span className={styles.placeName}>Laituri</span>
           <FiExternalLink fontSize={20} />
         </a>
-        <span>la</span>
+        <span>pe</span>
       </h2>
-      <span className={styles.locationAddress} style={{ marginBottom: 50 }}>
-        Sinervon talo, Sauniementie 5, Teersalo
+      <span className={styles.locationAddress}>
+        Café Laituri, Voiponlahdentie 37, Palva
       </span>
-      <h3 className={styles.timeSpan}>14:00 - 20:00</h3>
+      <span className={styles.timeSpan}>18:00 - 21:00</span>
 
-      <button
-        className={styles.programPerformersTitleToggle}
-        onClick={() => toggleDayDesc('sat')}
-      >
-        <span className={styles.programPerformersTitle}>Esiintyjät</span>
-        <span className={shared.openingChevron}>
-          {dayToggles.sat ? (
-            <BiChevronDown size='2.5rem' />
-          ) : (
-            <BiChevronLeft size='2.5rem' />
-          )}
-        </span>
-      </button>
-
-      <CSSTransition
-        in={dayToggles.thu}
-        timeout={1000}
-        classNames='fadeTransition'
-      >
-        {dayToggles.sat ? (
-          <ul className={styles.performerList}>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>14:00</span>
-              <span className={styles.programPerformer}>Kinnunen&Kinnunen</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>14:30</span>
-              <span className={styles.programPerformer}>Katja Meriluoto</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>14:50</span>
-              <span className={styles.programPerformer}>Marianna Kurtto</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>15:10</span>
-              <span className={styles.programPerformer}>
-                Esa Hirvonen & Masi Hukari
-              </span>
-            </li>
-            <li className={styles.programBreak}>Tauko</li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>16:00</span>
-              <span className={styles.programPerformer}>Veera Sylvius</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>16:20</span>
-              <span className={styles.programPerformer}>Suvi Valli</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>16:40</span>
-              <span className={styles.programPerformer}>
-                Sergio Augusto Sánchez
-              </span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>17:00</span>
-              <span className={styles.programPerformer}>Blues Ones</span>
-            </li>
-            <li className={styles.programBreak}>Tauko</li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>18:00</span>
-              <span className={styles.programPerformer}>Sirpa Kyyrönen</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>18:20</span>
-              <span className={styles.programPerformer}>Tomi Kontio</span>
-            </li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>18:40</span>
-              <span className={styles.programPerformer}>
-                Katariina Vuorinen & Kaisa Mäensivu
-              </span>
-            </li>
-            <li className={styles.programBreak}>Tauko</li>
-            <li className={styles.performerWithTime}>
-              <span className={styles.programTime}>19:30</span>
-              <span className={styles.programPerformer}>Signe</span>
-            </li>
-          </ul>
-        ) : (
-          <span />
-        )}
-      </CSSTransition>
+      <ul className={styles.performerList}>
+        <li>Juha Kulmala + Positroninen runo-orkesteri </li>
+        <li>Terhi Forssén</li>
+        <li>Katariina Vuorinen & Björn</li>
+      </ul>
       <hr className={styles.programHr} />
     </section>
   );
