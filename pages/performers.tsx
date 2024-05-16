@@ -6,6 +6,8 @@ import Performer from '../types/Performer';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
 import PerformersData from '../data/performers/2024';
 import { CSSTransition } from 'react-transition-group';
+import Link from 'next/link';
+import { FiExternalLink } from 'react-icons/fi';
 
 interface PerformerCard extends Performer {
   id: number;
@@ -88,6 +90,12 @@ const Performers = () => {
       ) : (
         <i>Lisätietoja tulossa myöhemmin...</i>
       )}
+      <Link href="/archive">
+        <a>
+          <span className={styles.archiveLinkText}>Aiempien vuosien esiintyjiä</span>
+          <FiExternalLink fontSize={20} />
+        </a>
+      </Link>
     </section>
   );
 };
