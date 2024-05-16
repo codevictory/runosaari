@@ -6,7 +6,7 @@ const Lead = () => {
     <div className={styles.leadContainer}>
       <h2 className={styles.leadTitle}>
         <span className={styles.dateAndPlace}>
-          7. ja 14.6. Naantalin Saaristo
+          7. ja 14.6. Naantalin saaristo
         </span>
         Vuonna 2024 saarifestivaali tuo runoutta ja musiikkia kahteen kesäkuun perjantaihin
       </h2>
