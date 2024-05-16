@@ -41,7 +41,7 @@ const Program = () => {
 
       {/* Laituri */}
       <h2 className={styles.programTitle}>
-        <span>17.6.</span>
+        <span>14.6.</span>
         <a href='https://www.cafelaituri.fi'>
           <span className={styles.placeName}>Laituri</span>
           <FiExternalLink fontSize={20} />
