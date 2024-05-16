@@ -37,6 +37,7 @@ const Program = () => {
         <li>Juha Rautio</li>
         <li>Katariina Vuorinen<br />& Ilkka Turta</li>
       </ul>
+      <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
 
       {/* Laituri */}
@@ -58,6 +59,7 @@ const Program = () => {
         <li>Terhi Forssén</li>
         <li>Katariina Vuorinen & Björn</li>
       </ul>
+      <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
     </section>
   );
