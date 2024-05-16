@@ -15,8 +15,8 @@ const Home: NextPage = () => {
       <h1>Runosaari</h1>
       <Lead />
       <Program />
-      {/* <Performers />
-      <Workshops /> */}
+      <Performers />
+      {/* <Workshops /> */}
       <Info />
       <Collaboration />
       {/* <Archive /> */}
