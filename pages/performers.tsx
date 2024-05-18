@@ -10,7 +10,6 @@ import Link from 'next/link';
 import { FiExternalLink } from 'react-icons/fi';
 
 interface PerformerCard extends Performer {
-  id: number;
   showDesc: boolean;
 }
 
@@ -20,15 +19,15 @@ const Performers = () => {
   useEffect(() => {
     let cards: PerformerCard[] = [];
 
-    PerformersData.map((p, index) => {
-      let newCard = { ...p, id: index, showDesc: false };
+    PerformersData.map((p) => {
+      let newCard = { ...p, showDesc: false };
       cards.push(newCard);
     });
 
     setPerformers(cards);
   }, []);
 
-  const togglePerformerDesc = (id: number) => {
+  const togglePerformerDesc = (id: string) => {
     let updated: PerformerCard[];
     updated = performers.map((p) => {
       if (p.id === id) {
@@ -48,7 +47,7 @@ const Performers = () => {
           <div className={styles.performerContainer} key={p.id}>
             <Image
               className={styles.performerImage}
-              src={p.imagePath}
+              src={'/performers/2024/' + p.id + '.jpg'}
               width={100}
               height={100}
               layout='fixed'
