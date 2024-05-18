@@ -19,6 +19,7 @@ const Collaboration = () => {
         <span>Saaristohotelli Vaihela</span>
         <span>Aviador Kustannus</span>
         <span>Enostone Kustannus</span>
+        <span>Keski-Suomen kirjailijat</span>
       </div>
     </>
   );
