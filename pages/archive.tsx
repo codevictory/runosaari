@@ -10,7 +10,6 @@ import Performer from '../types/Performer';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
 
 interface PerformerCard extends Performer {
-  id: number;
   showDesc: boolean;
 }
 
@@ -22,8 +21,8 @@ const Archive = () => {
   useEffect(() => {
     let cards: PerformerCard[] = [];
 
-    PerformersData2021.map((p, index) => {
-      let newCard = { ...p, id: index, showDesc: false };
+    PerformersData2021.map((p) => {
+      let newCard = { ...p, showDesc: false };
       cards.push(newCard);
     });
 
@@ -33,8 +32,8 @@ const Archive = () => {
   useEffect(() => {
     let cards: PerformerCard[] = [];
 
-    PerformersData2022.map((p, index) => {
-      let newCard = { ...p, id: index, showDesc: false };
+    PerformersData2022.map((p) => {
+      let newCard = { ...p, showDesc: false };
       cards.push(newCard);
     });
 
@@ -44,15 +43,15 @@ const Archive = () => {
   useEffect(() => {
     let cards: PerformerCard[] = [];
 
-    PerformersData2023.map((p, index) => {
-      let newCard = { ...p, id: index, showDesc: false };
+    PerformersData2023.map((p) => {
+      let newCard = { ...p, showDesc: false };
       cards.push(newCard);
     });
 
     setPerformers2023(cards);
   }, []);
 
-  const togglePerformerDesc2021 = (id: number) => {
+  const togglePerformerDesc2021 = (id: string) => {
     let updated: PerformerCard[];
     updated = performers2021.map((p) => {
       if (p.id === id) {
@@ -64,7 +63,7 @@ const Archive = () => {
     setPerformers2021(updated);
   };
 
-  const togglePerformerDesc2022 = (id: number) => {
+  const togglePerformerDesc2022 = (id: string) => {
     let updated: PerformerCard[];
     updated = performers2022.map((p) => {
       if (p.id === id) {
@@ -76,7 +75,7 @@ const Archive = () => {
     setPerformers2022(updated);
   };
 
-  const togglePerformerDesc2023 = (id: number) => {
+  const togglePerformerDesc2023 = (id: string) => {
     let updated: PerformerCard[];
     updated = performers2023.map((p) => {
       if (p.id === id) {
@@ -96,11 +95,11 @@ const Archive = () => {
         <div className={styles.performerContainer} key={p.id}>
           <Image
             className={styles.performerImage}
-            src={p.imagePath}
+            src={'/performers/2023/' + p.id + '.jpg'}
             width={100}
             height={100}
             layout='fixed'
-            alt={p.name + ' image'}
+            alt={p.name}
           />
           <div className={styles.performerTextContainer}>
             <div
@@ -140,11 +139,11 @@ const Archive = () => {
         <div className={styles.performerContainer} key={p.id}>
           <Image
             className={styles.performerImage}
-            src={p.imagePath}
+            src={'/performers/2022/' + p.id + '.jpg'}
             width={100}
             height={100}
             layout='fixed'
-            alt={p.name + ' image'}
+            alt={p.name}
           />
           <div className={styles.performerTextContainer}>
             <div
@@ -184,11 +183,11 @@ const Archive = () => {
         <div className={styles.performerContainer} key={p.id}>
           <Image
             className={styles.performerImage}
-            src={p.imagePath}
+            src={'/performers/2021/' + p.id + '.jpg'}
             width={100}
             height={100}
             layout='fixed'
-            alt={p.name + ' image'}
+            alt={p.name}
           />
           <div className={styles.performerTextContainer}>
             <div
