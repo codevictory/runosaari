@@ -1,7 +1,7 @@
 type Performer = {
     name: string,
     paragraphs: Array<string>,
-    imagePath: string,
+    id: string,
 }
 
 export default Performer;
