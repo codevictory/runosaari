@@ -58,6 +58,7 @@ const Program = () => {
         <li>Juha Kulmala + Positroninen runo-orkesteri </li>
         <li>Terhi Forssén</li>
         <li>Katariina Vuorinen & Björn</li>
+        <li>Risto Oikarinen</li>
       </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
