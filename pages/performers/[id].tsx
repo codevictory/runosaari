@@ -25,7 +25,7 @@ const PerformerPage = () => {
 
     return (
         performer.name == '' ?
-            (<div>Esiintyjää tunnisteella "{router.query.id}" ei löydy.</div>)
+            (<div>Esiintyjää tunnisteella {router.query.id} ei löydy.</div>)
             : (
                 <div className={styles.performerContainer}>
                     <Image
