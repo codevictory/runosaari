@@ -89,7 +89,7 @@ const Performers = () => {
       ) : (
         <i>Lisätietoja tulossa myöhemmin...</i>
       )}
-      <Link href="/archive">
+      <Link href="/arkisto">
         <a>
           <span className={styles.archiveLinkText}>Aiempien vuosien esiintyjiä</span>
           <FiExternalLink fontSize={20} />

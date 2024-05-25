@@ -22,7 +22,7 @@
 .programTitle {
   display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 80%;
   max-width: 25rem;
   padding-left: 1.5rem;
@@ -54,16 +54,54 @@
 }
 
 .performerList {
-  font-size: 1.5rem;
-  font-weight: bold;
-  list-style-type: none;
-  line-height: 1.5rem;
-  max-width: 20rem;
-  padding-left: 0;
-  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
 
-  li {
-    margin-top: 1em;
+.performerCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #2f273e;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.performerCard:hover {
+  color: rgb(117, 117, 117);
+  transition: color 0.3s;
+}
+
+.performerName {
+  max-width: 105px;
+  word-wrap: normal;
+}
+
+.eventContainer {
+  display: flex;  
+  gap: 4%;
+  margin-bottom: 2em;
+}
+
+.event {
+  min-width: 40%;
+  padding: 4%;
+  background-color: #e7e2f5;
+}
+
+@media screen and (max-width: 768px) {
+  .eventContainer {
+    flex-wrap: wrap;
+  }
+
+  .event {
+    margin-top: 2em;
   }
 }
 
@@ -124,4 +162,16 @@
   border: 0.1rem solid #d5caf29d;
   width: 43%;
   margin-top: 1em;
+}
+
+.archiveLink {
+  margin-top: 1rem;
+}
+
+.archiveLinkText {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  color: #2f273e;
+  text-decoration: none;
+  font-weight: bold;
 }

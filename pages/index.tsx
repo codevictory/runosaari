@@ -6,7 +6,7 @@ import styles from '../styles/Index.module.scss';
 import Lead from './components/Lead';
 import Collaboration from './components/Collaboration';
 import Workshops from './workshops';
-import Archive from './archive';
+import Archive from './arkisto';
 // import Workshops from './workshops';
 
 const Home: NextPage = () => {

@@ -4,6 +4,9 @@ import shared from '../styles/Shared.module.scss';
 import styles from '../styles/Program.module.scss';
 import { CSSTransition } from 'react-transition-group';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
+import Performer from '../types/Performer';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface DayToggles {
   wed: boolean;
@@ -12,56 +15,100 @@ interface DayToggles {
   sat: boolean;
 }
 
+const firstPerformers: Performer[] = [];
+const secondPerformers: Performer[] = [];
+
 const Program = () => {
+  const [firstPerformers] = useState([
+    { id: "ayras", name: "Äyräs", paragraphs: [] },
+    { id: "hanna_storm", name: "Hanna Storm", paragraphs: [] },
+    { id: "juha_rautio", name: "Juha Rautio", paragraphs: [] },
+    { id: "katariina_vuorinen", name: "Katariina Vuorinen & Ilkka Turta", paragraphs: [] }]);
+
+  const [secondPerformers] = useState([
+    { id: "juha_kulmala", name: "Juha Kulmala + Positroninen runo-orkesteri", paragraphs: [] },
+    { id: "terhi_forssen", name: "Terhi Forssén", paragraphs: [] },
+    { id: "katariina_vuorinen", name: "Katariina Vuorinen & Björn", paragraphs: [] }]);
+
   return (
     <section className={shared.page}>
       <h1 id='program-start'>Ohjelma</h1>
 
-      {/* Vaihela */}
-      <h2 className={styles.programTitle}>
-        <span>7.6.</span>
-        <a href='https://www.cafelaituri.fi'>
-          <span className={styles.placeName}>Vaihela</span>
+      <div className={styles.eventContainer}>
+        {/* Vaihela */}
+        <div className={styles.event}>
+          <div className={styles.programTitle}>
+            <span className={styles.timeSpan}>pe</span>
+            <span className={styles.timeSpan}>7.6.</span>
+            <span className={styles.timeSpan}>18 - 21</span>
+          </div>
+          <h2>
+            <a href='https://www.cafelaituri.fi'>
+              <span className={styles.placeName}>Vaihela</span>
+              <FiExternalLink fontSize={20} />
+            </a>
+          </h2>
+
+          <div className={styles.performerList}>
+            {firstPerformers.map((p) => (
+              <a href={'/esiintyjat/' + p.id} className={styles.performerCard}>
+                <Image
+                  className={styles.performerImage}
+                  src={'/performers/2024/' + p.id + '.jpg'}
+                  width={80}
+                  height={80}
+                  layout='fixed'
+                  alt={p.name}
+                />
+                <span className={styles.performerName}>{p.name}</span>
+              </a>
+            ))}
+          </div>
+          <br />
+          <br />
+          <i>Ohjelma täydentyy...</i>
+        </div>
+
+        {/* Laituri */}
+        <div className={styles.event}>
+          <div className={styles.programTitle}>
+            <span className={styles.timeSpan}>pe</span>
+            <span className={styles.timeSpan}>14.6.</span>
+            <span className={styles.timeSpan}>18 - 21</span>
+          </div>
+          <h2>
+            <a href='https://www.cafelaituri.fi'>
+              <span className={styles.placeName}>Laituri</span>
+              <FiExternalLink fontSize={20} />
+            </a>
+          </h2>
+          <div className={styles.performerList}>
+            {secondPerformers.map((p) => (
+              <a href={'/esiintyjat/' + p.id} className={styles.performerCard}>
+                <Image
+                  className={styles.performerImage}
+                  src={'/performers/2024/' + p.id + '.jpg'}
+                  width={80}
+                  height={80}
+                  layout='fixed'
+                  alt={p.name}
+                />
+                <span className={styles.performerName}>{p.name}</span>
+              </a>
+            ))}
+          </div>
+          <br />
+          <br />
+          <i>Ohjelma täydentyy...</i>
+        </div>
+      </div>
+      <Link href="/arkisto">
+        <a>
+          <span className={styles.archiveLinkText}>Aiempien vuosien esiintyjiä</span>
           <FiExternalLink fontSize={20} />
         </a>
-        <span>pe</span>
-      </h2>
-      <span className={styles.locationAddress}>
-        Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa
-      </span>
-      <span className={styles.timeSpan}>18:00 - 21:00</span>
-
-      <ul className={styles.performerList}>
-        <li>Äyräs</li>
-        <li>Hanna Storm</li>
-        <li>Juha Rautio</li>
-        <li>Katariina Vuorinen<br />& Ilkka Turta</li>
-      </ul>
-      <i>Ohjelma täydentyy...</i>
-      <hr className={styles.programHr} />
-
-      {/* Laituri */}
-      <h2 className={styles.programTitle}>
-        <span>14.6.</span>
-        <a href='https://www.cafelaituri.fi'>
-          <span className={styles.placeName}>Laituri</span>
-          <FiExternalLink fontSize={20} />
-        </a>
-        <span>pe</span>
-      </h2>
-      <span className={styles.locationAddress}>
-        Café Laituri, Voiponlahdentie 37, Palva
-      </span>
-      <span className={styles.timeSpan}>18:00 - 21:00</span>
-
-      <ul className={styles.performerList}>
-        <li>Juha Kulmala + Positroninen runo-orkesteri </li>
-        <li>Terhi Forssén</li>
-        <li>Katariina Vuorinen & Björn</li>
-      </ul>
-      <i>Ohjelma täydentyy...</i>
-      <hr className={styles.programHr} />
-    </section>
+      </Link>
+    </section >
   );
 };
 
