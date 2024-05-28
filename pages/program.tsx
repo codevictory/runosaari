@@ -59,6 +59,7 @@ const Program = () => {
         <li>Terhi Forssén</li>
         <li>Katariina Vuorinen & Björn</li>
         <li>Risto Oikarinen</li>
+        <li>Emmi Ketonen</li>
       </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
