@@ -82,12 +82,15 @@ const Info = () => {
           {infoToggles.bus ? (
             <div>
               <p>
-                Bussi 203 lähtee Turusta (Kauppatori E2) ma-pe 16:30 ja saapuu
-                Velkualle 17:53. Tämä on ainoa suorayhteys festivaali alueelle.
-                Takaisin päin bussi menee 06:20 Teersalosta ja on 07:37 Turussa
-                (Kauppatori E2)
+                Bussi 203 lähtee Turusta ma-pe klo 16:10 ja Naantalista klo 17,
+                ja saapuu Velkuan Teersaloon n. klo 17:45. Tämä on ainoa suora
+                yhteys festivaalille. Palvan saareen on Teersalosta yksi lossi,
+                ja Velkuanmaahan kaksi. Lossit lähtevät puolen tunnin välein
+                (tasatunnein ja puolelta) Teersalosta ja Velkuanmaasta, ja Palvasta
+                aina varttia vaille ja yli tasatunnin. (Aikataulut: <a href="https://www.finferries.fi/">finnferries.fi</a>)
+                Takaisin päin busseja ei kulje viikonloppuisin.
               </p>
-              <a href='https://www.foli.fi/fi'>
+              <a href='https://cms.foli.fi/sites/default/files/documents-2024-04/Linja%20200%2C203.pdf'>
                 Paikallisliikenteen bussiaikataulut
               </a>
             </div>
