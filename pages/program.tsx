@@ -15,32 +15,39 @@ interface DayToggles {
 const Program = () => {
   return (
     <section className={shared.page}>
-      <h1 id='program-start'>Ohjelma</h1>
-
-      {/* Vaihela 
-      <h2 className={styles.programTitle}>
-        <span>7.6.</span>
+      {/* <h1 id='program-start'>Ohjelma</h1> */}
+      <p className={styles.programTimeAndPlace}>
+        Torstai 12.6. klo 18-21 <span className={styles.locationName}>Palva</span>
+      </p>
+      <h2 className={styles.placeTitle}>
         <a href='https://www.cafelaituri.fi'>
-          <span className={styles.placeName}>Vaihela</span>
-          <FiExternalLink fontSize={20} />
+          Cafe Laituri
         </a>
-        <span>pe</span>
       </h2>
-      <span className={styles.locationAddress}>
-        Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa
-      </span>
-      <span className={styles.timeSpan}>18:00 - 21:00</span>
+      <p className={styles.programTimeAndPlace}>
+        Perjantai 13.6. klo 18-21 <span className={styles.locationName}>Velkuanmaa</span>
+      </p>
+      <h2 className={styles.placeTitle}>
+        <a href='https://www.cafelaituri.fi'>
+          <span className={styles.placeName}>Saaristohotelli Vaihela</span>
+        </a>
+      </h2>
+      <p className={styles.programTimeAndPlace}>
+        Lauantai 14.6. klo 15-20 <span className={styles.locationName}>Teersalo</span>
+      </p>
+      <h2 className={styles.placeTitle}>
+        <a href='https://www.cafelaituri.fi'>
+          <span className={styles.placeName}>Sinervon talo</span>
+        </a>
+      </h2>
 
-      <ul className={styles.performerList}>
+      {/* <ul className={styles.performerList}>
         <li>Äyräs</li>
         <li>Hanna Storm</li>
         <li>Juha Rautio</li>
         <li>Katariina Vuorinen<br />& Ilkka Turta</li>
       </ul>
       <i>Ohjelma täydentyy...</i>
-      <hr className={styles.programHr} />
-      */}
-      {/* Laituri 
       <h2 className={styles.programTitle}>
         <span>14.6.</span>
         <a href='https://www.cafelaituri.fi'>
@@ -50,7 +57,7 @@ const Program = () => {
         <span>pe</span>
       </h2>
       <span className={styles.locationAddress}>
-        Café Laituri, Voiponlahdentie 37, Palva
+        Saaristohotelli Vaihela, Velkuanmaantie 168, Velkuanmaa
       </span>
       <span className={styles.timeSpan}>18:00 - 21:00</span>
 
@@ -63,9 +70,8 @@ const Program = () => {
       </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
-      */}
 
-      <i className={shared.moreInfoLaterText}>Lisätietoja tulossa myöhemmin...</i>
+      <i className={shared.moreInfoLaterText}>Lisätietoja tulossa myöhemmin...</i> */}
     </section>
   );
 };

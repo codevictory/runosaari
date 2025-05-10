@@ -39,11 +39,28 @@
   }
 }
 
-.placeName {
-  font-size: 2.5rem;
+.programTimeAndPlace {
+  width: 80%;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.placeTitle {
+  font-size: 3.5rem !important;
   margin-right: 1rem;
   color: #2f273e;
   text-decoration: none;
+  padding-bottom: 2rem;
+  margin-top: 0;
+
+  a {
+    color: #2f273e;
+    text-decoration-color: #bd2626;
+  }
+}
+
+.locationName {
+  color: #bd2626;
 }
 
 .timeSpan {
