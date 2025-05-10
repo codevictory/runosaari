@@ -17,8 +17,8 @@ const Home: NextPage = () => {
       <Program />
       <Performers />
       {/* <Workshops /> */}
-      <Info />
-      <Collaboration />
+      {/* <Info /> */}
+      {/* <Collaboration /> */}
       {/* <Archive /> */}
     </div>
   );

@@ -5,10 +5,10 @@ const Lead = () => {
   return (
     <div className={styles.leadContainer}>
       <h2 className={styles.leadTitle}>
+        Nähdään taas ensi kesänä 2025!
         <span className={styles.dateAndPlace}>
-          7. ja 14.6. Naantalin saaristo
+          12. - 14.6.
         </span>
-        Vuonna 2024 saarifestivaali tuo runoutta ja musiikkia kahteen kesäkuun perjantaihin
       </h2>
       {/* <p className={styles.leadText}>
         Runosaari on poikkitaiteellinen runofestivaali Livonsaaren, Palvan ja

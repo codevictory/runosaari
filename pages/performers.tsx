@@ -4,7 +4,7 @@ import styles from '../styles/Performers.module.scss';
 import shared from '../styles/Shared.module.scss';
 import Performer from '../types/Performer';
 import { BiChevronDown, BiChevronLeft } from 'react-icons/bi';
-import PerformersData from '../data/performers/2024';
+import PerformersData from '../data/performers/2025';
 import { CSSTransition } from 'react-transition-group';
 import Link from 'next/link';
 import { FiExternalLink } from 'react-icons/fi';
@@ -87,7 +87,7 @@ const Performers = () => {
           </div>
         ))
       ) : (
-        <i>Lisätietoja tulossa myöhemmin...</i>
+        <i className={shared.moreInfoLaterText}>Lisätietoja tulossa myöhemmin...</i>
       )}
       <Link href="/archive">
         <a>

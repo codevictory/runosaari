@@ -17,7 +17,7 @@ const Program = () => {
     <section className={shared.page}>
       <h1 id='program-start'>Ohjelma</h1>
 
-      {/* Vaihela */}
+      {/* Vaihela 
       <h2 className={styles.programTitle}>
         <span>7.6.</span>
         <a href='https://www.cafelaituri.fi'>
@@ -39,8 +39,8 @@ const Program = () => {
       </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
-
-      {/* Laituri */}
+      */}
+      {/* Laituri 
       <h2 className={styles.programTitle}>
         <span>14.6.</span>
         <a href='https://www.cafelaituri.fi'>
@@ -63,6 +63,9 @@ const Program = () => {
       </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
+      */}
+
+      <i className={shared.moreInfoLaterText}>Lisätietoja tulossa myöhemmin...</i>
     </section>
   );
 };
