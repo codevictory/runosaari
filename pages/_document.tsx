@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <meta property="og:image:type" content="image/jpg" />
           <meta property="og:image:width" content="1516" />
           <meta property="og:image:height" content="582" />
-          <meta property="og:description" content="Nähdään taas ensi kesänä 12. - 14.6.2025!" />
+          <meta property="og:description" content="Runofestivaali saariston sylissä 12. - 14.6.2025" />
           <script
             async
             defer
