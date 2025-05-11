@@ -3,12 +3,6 @@ import styles from '../../styles/Logo.module.scss';
 import Link from 'next/link';
 
 const Logo = () => {
-  const [isDesktop, setIsDesktop] = useState(true);
-
-  useEffect(() => {
-    setIsDesktop(window.innerWidth > 768);
-  }, []);
-
   return (
     <Link href="/">
       <a>

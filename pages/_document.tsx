@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            href='https://fonts.googleapis.com/css?family=Crimson+Text'
+            href='https://fonts.googleapis.com/css?family=Crimson+Text&display=optional'
             rel='stylesheet'
           />
           <meta property="og:title" content="Runosaari" />
