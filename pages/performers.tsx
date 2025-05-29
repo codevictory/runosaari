@@ -47,7 +47,7 @@ const Performers = () => {
           <div className={styles.performerContainer} key={p.id}>
             <Image
               className={styles.performerImage}
-              src={'/performers/2024/' + p.id + '.jpg'}
+              src={'/performers/2025/' + p.id + '.jpg'}
               width={100}
               height={100}
               layout='fixed'

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router'
 import shared from '../../styles/Shared.module.scss';
 import styles from '../../styles/Performer.module.scss';
-import PerformersData from '../../data/performers/2024';
+import PerformersData from '../../data/performers/2025';
 import Performer from '../../types/Performer';
 import Image from 'next/image';
 
@@ -30,7 +30,7 @@ const PerformerPage = () => {
                 <div className={styles.performerContainer}>
                     <Image
                         className={styles.performerImage}
-                        src={'/performers/2024/' + performer.id + '.jpg'}
+                        src={'/performers/2025/' + performer.id + '.jpg'}
                         width={300}
                         height={300}
                         layout='fixed'
