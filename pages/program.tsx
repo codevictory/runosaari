@@ -24,6 +24,9 @@ const Program = () => {
           Cafe Laituri
         </a>
       </h2>
+      <ul className={styles.performerList}>
+        <li>Pegasos</li>
+      </ul>
       <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
       <p className={styles.programTimeAndPlace}>
