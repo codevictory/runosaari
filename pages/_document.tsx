@@ -17,12 +17,7 @@ class MyDocument extends Document {
           <meta property="og:image:width" content="1516" />
           <meta property="og:image:height" content="582" />
           <meta property="og:description" content="Runofestivaali saariston sylissä 12. - 14.6.2025" />
-          <script
-            async
-            defer
-            data-website-id='3fb34a0a-f153-4941-9fa4-16c6b648b055'
-            src='https://umami.avislacus.com/umami.js'
-          ></script>
+          <script defer src="https://diamond-rabbit.pikapod.net/script.js" data-website-id="2778daae-4fd3-45c5-babe-9b9b988a75d4"></script>
         </Head>
         <body>
           <Main />
