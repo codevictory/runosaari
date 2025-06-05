@@ -66,7 +66,6 @@ const Program = () => {
 
       <hr className={styles.programHr} />
 
-      <i className={shared.moreInfoLaterText}>Lisätietoja tulossa myöhemmin...</i>
     </section>
   );
 };
