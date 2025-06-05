@@ -42,7 +42,7 @@ const Program = () => {
       <ul className={styles.performerList}>
         <li>Kauko Röyhkä & Severi Pyysalo</li>
         <li>Juha Kulmala + Positroninen Runo-orkesteri!</li>
-        <li>Pekka Tolonen & Katariina Vuorinen</li>
+        <li>Katariina Vuorinen & Pekka Tolonen</li>
       </ul>
       <hr className={styles.programHr} />
 
@@ -55,12 +55,13 @@ const Program = () => {
         </a>
       </h2>
       <ul className={styles.performerList}>
-        <li>Panu Hämeenaho</li>
-        <li>Uhrijuhla</li>
         <li>Santtu Puukka</li>
         <li>Maaria Päivinen</li>
         <li>Silja Järventausta</li>
         <li>Tiina Lehikoinen</li>
+        <li>Katariina Vuorinen</li>
+        <li>Panu Hämeenaho</li>
+        <li>Uhrijuhla</li>
         <li>Djangomania</li>
       </ul>
 
