@@ -26,9 +26,11 @@ const Program = () => {
       </h2>
       <ul className={styles.performerList}>
         <li>Pegasos</li>
+        <li>Jaakko Martikainen ja Henriikka Tavi</li>
+        <li>Peter Mickwitz</li>
       </ul>
-      <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
+
       <p className={styles.programTimeAndPlace}>
         Perjantai 13.6. klo 18-21 <span className={styles.locationName}>Velkuanmaa</span>
       </p>
@@ -39,9 +41,11 @@ const Program = () => {
       </h2>
       <ul className={styles.performerList}>
         <li>Kauko Röyhkä & Severi Pyysalo</li>
+        <li>Juha Kulmala + Positroninen Runo-orkesteri!</li>
+        <li>Pekka Tolonen & Katariina Vuorinen</li>
       </ul>
-      <i>Ohjelma täydentyy...</i>
       <hr className={styles.programHr} />
+
       <p className={styles.programTimeAndPlace}>
         Lauantai 14.6. klo 15-20 <span className={styles.locationName}>Teersalo</span>
       </p>
@@ -53,9 +57,12 @@ const Program = () => {
       <ul className={styles.performerList}>
         <li>Panu Hämeenaho</li>
         <li>Uhrijuhla</li>
+        <li>Santtu Puukka</li>
+        <li>Maaria Päivinen</li>
         <li>Silja Järventausta</li>
+        <li>Tiina Lehikoinen</li>
+        <li>Djangomania</li>
       </ul>
-      <i>Ohjelma täydentyy...</i>
 
       <hr className={styles.programHr} />
 
