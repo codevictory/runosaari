@@ -51,7 +51,9 @@ const Program = () => {
         </a>
       </h2>
       <ul className={styles.performerList}>
+        <li>Panu Hämeenaho</li>
         <li>Uhrijuhla</li>
+        <li>Silja Järventausta</li>
       </ul>
       <i>Ohjelma täydentyy...</i>
 
