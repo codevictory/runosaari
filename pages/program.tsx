@@ -26,7 +26,7 @@ const Program = () => {
       </h2>
       <ul className={styles.performerList}>
         <li>Pegasos</li>
-        <li>Jaakko Martikainen ja Henriikka Tavi</li>
+        <li>Henriikka Tavi ja Jaakko Martikainen</li>
         <li>Peter Mickwitz</li>
       </ul>
       <hr className={styles.programHr} />
