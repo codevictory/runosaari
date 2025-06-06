@@ -15,7 +15,7 @@ interface DayToggles {
 const Program = () => {
   return (
     <section className={shared.page}>
-      {/* <h1 id='program-start'>Ohjelma</h1> */}
+      <h1 id='program-start'>Ohjelma</h1>
       <p className={styles.programTimeAndPlace}>
         Torstai 12.6. klo 18-21 <span className={styles.locationName}>Palva</span>
       </p>
@@ -28,6 +28,7 @@ const Program = () => {
         <li>Pegasos</li>
         <li>Henriikka Tavi ja Jaakko Martikainen</li>
         <li>Peter Mickwitz</li>
+        <li>Milagros Corcuera</li>
       </ul>
       <hr className={styles.programHr} />
 
@@ -63,6 +64,7 @@ const Program = () => {
         <li>Panu Hämeenaho</li>
         <li>Uhrijuhla</li>
         <li>Djangomania</li>
+        <li>Milagros Corcuera</li>
       </ul>
 
       <hr className={styles.programHr} />
